@@ -94,7 +94,15 @@ public class HomeInterface extends javax.swing.JFrame {
 
         jLabel4.setText("Run Time");
 
+        sp_rain_amount.setModel(new javax.swing.SpinnerNumberModel(0, 0, null, 1));
+
+        sp_rain_temperature.setModel(new javax.swing.SpinnerNumberModel(0, 0, null, 1));
+
+        sp_hours.setModel(new javax.swing.SpinnerNumberModel(0, 0, null, 1));
+
         jLabel5.setText("hr");
+
+        sp_mins.setModel(new javax.swing.SpinnerNumberModel(0, 0, null, 1));
 
         jLabel6.setText("min");
 
