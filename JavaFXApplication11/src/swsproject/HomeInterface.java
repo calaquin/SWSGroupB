@@ -4,9 +4,11 @@ package swsproject;
 import javax.swing.*;
 import java.awt.*;
 import java.util.ArrayList;
-import java.util.List;
 import java.util.Timer;
 import java.util.TimerTask;
+import org.jfree.chart.ChartFactory;
+import org.jfree.chart.plot.PlotOrientation;
+import org.jfree.data.category.DefaultCategoryDataset;
 
 
 
@@ -269,6 +271,7 @@ public class HomeInterface extends javax.swing.JFrame {
 
         jLabel14.setFont(new java.awt.Font("Tahoma", 0, 48)); // NOI18N
         jLabel14.setText("| |");
+        jLabel14.setToolTipText("Channeling Point where all water runs toward");
 
         lbl_point_temp.setText("0 C");
 

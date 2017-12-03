@@ -1,6 +1,13 @@
 
 package swsproject;
 
+import java.awt.Color;
+import org.jfree.chart.ChartFactory;
+import org.jfree.chart.ChartFrame;
+import org.jfree.chart.JFreeChart;
+import org.jfree.chart.plot.CategoryPlot;
+import org.jfree.data.category.DefaultCategoryDataset;
+
 
 public class SetSurface extends javax.swing.JFrame {
 
@@ -102,6 +109,16 @@ public class SetSurface extends javax.swing.JFrame {
             this.setVisible(false);
             DataSingleton.getInstance().home_interface.draw_panel.repaint();
         }
+        DefaultCategoryDataset dataset = new DefaultCategoryDataset();
+        dataset.setValue(80, "LineA", "LineB");
+        JFreeChart chart = ChartFactory.createLineChart(DataSingleton.getInstance().current_surface.name, "Time", "Temperature", dataset);
+        CategoryPlot p = chart.getCategoryPlot();
+        p.setRangeGridlinePaint(Color.BLACK);
+        ChartFrame frame = new ChartFrame(DataSingleton.getInstance().current_surface.name, chart);
+        frame.setVisible(true);
+        frame.setSize(450, 350);
+        
+        
     }//GEN-LAST:event_btn_okActionPerformed
 
     private void txt_tempActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt_tempActionPerformed
