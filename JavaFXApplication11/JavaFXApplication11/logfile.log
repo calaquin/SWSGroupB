@@ -1,0 +1,18 @@
+2017-11-29 12:02:28,803 INFO  [SWSProject] This is an info message. 
+2017-12-02 20:03:21,406 INFO  [SWSProject] This is an info message. 
+2017-12-02 20:15:46,474 INFO  [SWSProject] This is an info message. 
+2017-12-02 20:16:50,119 INFO  [HomeInterface] This is the time 
+2017-12-02 20:33:07,273 INFO  [SWSProject] This is an info message. 
+2017-12-02 20:33:22,813 INFO  [HomeInterface] The user selects grass as surface 
+2017-12-02 20:33:22,829 INFO  [HomeInterface] The user selects grass as surface 
+2017-12-02 20:35:08,795 INFO  [HomeInterface] The user selects the roof as a surface 
+2017-12-02 20:35:58,272 INFO  [SWSProject] This is an info message. 
+2017-12-02 20:37:03,507 INFO  [SWSProject] This is an info message. 
+2017-12-02 20:48:49,981 INFO  [SWSProject] This is an info message. 
+2017-12-02 20:49:43,694 INFO  [SWSProject] This is an info message. 
+2017-12-02 20:49:46,976 INFO  [HomeInterface] The user selects grass as surface 
+2017-12-02 20:49:59,217 INFO  [HomeInterface] The user selects the roof as a surface 
+2017-12-02 20:50:14,355 INFO  [HomeInterface] The user selects the asphalt surface 
+2017-12-02 20:50:46,756 INFO  [HomeInterface] This is the simulation run time 
+2017-12-02 20:50:46,756 INFO  [HomeInterface] This is rain amount 
+2017-12-02 20:50:46,756 INFO  [HomeInterface] The time that remained 
