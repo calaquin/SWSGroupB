@@ -9,7 +9,7 @@ import org.apache.log4j.xml.DOMConfigurator;
 public class SWSProject {
     private static final Logger log4j = Logger.getLogger(SWSProject.class.getName());
 
-    
+   ///coment
     public static void main(String[] args) {
         DOMConfigurator.configure("log4j.xml");
         SWSProject st=new SWSProject();
