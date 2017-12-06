@@ -11,6 +11,7 @@ import org.jfree.data.time.Millisecond;
 import org.jfree.data.time.Second;
 import org.jfree.data.time.TimeSeries;
 import org.jfree.data.time.TimeSeriesCollection;
+import swsproject.DataSingleton;
 
 public class Main {
     static TimeSeries ts = new TimeSeries("data", Second.class);
@@ -37,8 +38,7 @@ public class Main {
         JFrame frame = new JFrame("GraphTest");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         ChartPanel label = new ChartPanel(chart);
-        frame.getContentPane().add(label);
-        
+        frame.getContentPane().add(label);        
 
         frame.pack();
         frame.setVisible(true);
@@ -49,9 +49,12 @@ public class Main {
 
         public void run() {
             while(true) {
-                int num = randGen.nextInt(1000);
-                System.out.println(num);
-                ts.addOrUpdate(new Second(), num);
+                for (int i = 0; i < DataSingleton.getInstance().surface_list.size(); i++)
+                {
+                    double temp = DataSingleton.getInstance().surface_list.get(i).temp_water;
+                }                
+                //System.out.println(num);
+                ts.addOrUpdate(new Second(), temp);
                 try {
                     Thread.sleep(20);
                 } catch (InterruptedException ex) {
