@@ -35,7 +35,7 @@ public class GraphMaker {
         final XYPlot plot = chart.getXYPlot();
         ValueAxis axis = plot.getDomainAxis();
         axis.setAutoRange(true);
-        axis.setFixedAutoRange(90000.0);
+        //axis.setFixedAutoRange(9000.0);
 
         JFrame frame = new JFrame(DataSingleton.getInstance().surface_list.get(surface).name);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
