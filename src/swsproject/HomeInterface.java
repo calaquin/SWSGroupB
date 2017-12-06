@@ -446,6 +446,7 @@ public class HomeInterface extends javax.swing.JFrame {
                  DataSingleton.getInstance().surface_list.get(i).h_absorbe = h_apsorbe;
                  DataSingleton.getInstance().surface_list.get(i).h_water = h_water;
                  System.out.println(String.valueOf(DataSingleton.getInstance().surface_list.get(i).h_water));
+                 //System.out.println(String.temp_water);
              }
              double sum_temp_water = 0.0;
              double sum_h_water = 0.0;

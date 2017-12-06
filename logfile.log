@@ -25,3 +25,25 @@
 2017-12-05 18:20:34,219 INFO  [HomeInterface] The user selects the asphalt surface 
 2017-12-05 19:22:37,857 INFO  [SWSProject] This is an info message. 
 2017-12-05 19:22:39,208 INFO  [HomeInterface] The user selects grass as surface 
+2017-12-05 19:59:47,061 INFO  [SWSProject] This is an info message. 
+2017-12-05 20:00:02,161 INFO  [SWSProject] This is an info message. 
+2017-12-05 20:11:50,901 INFO  [SWSProject] This is an info message. 
+2017-12-05 20:11:52,318 INFO  [HomeInterface] The user selects grass as surface 
+2017-12-05 20:11:59,613 INFO  [HomeInterface] This is the simulation run time 
+2017-12-05 20:11:59,613 INFO  [HomeInterface] This is rain amount 
+2017-12-05 20:11:59,613 INFO  [HomeInterface] The time that remained 
+2017-12-05 20:14:13,221 INFO  [SWSProject] This is an info message. 
+2017-12-05 20:14:14,845 INFO  [HomeInterface] The user selects grass as surface 
+2017-12-05 20:14:23,365 INFO  [HomeInterface] This is the simulation run time 
+2017-12-05 20:14:23,365 INFO  [HomeInterface] This is rain amount 
+2017-12-05 20:14:23,365 INFO  [HomeInterface] The time that remained 
+2017-12-05 20:16:02,399 INFO  [SWSProject] This is an info message. 
+2017-12-05 20:16:11,157 INFO  [HomeInterface] The user selects grass as surface 
+2017-12-05 20:16:20,028 INFO  [HomeInterface] This is the simulation run time 
+2017-12-05 20:16:20,028 INFO  [HomeInterface] This is rain amount 
+2017-12-05 20:16:20,028 INFO  [HomeInterface] The time that remained 
+2017-12-05 20:17:36,241 INFO  [SWSProject] This is an info message. 
+2017-12-05 20:17:37,444 INFO  [HomeInterface] The user selects grass as surface 
+2017-12-05 20:17:46,301 INFO  [HomeInterface] This is the simulation run time 
+2017-12-05 20:17:46,301 INFO  [HomeInterface] This is rain amount 
+2017-12-05 20:17:46,301 INFO  [HomeInterface] The time that remained 
