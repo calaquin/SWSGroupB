@@ -1,4 +1,4 @@
-package graphtest;
+package swsproject;
 
 import java.util.Random;
 import javax.swing.JFrame;
@@ -7,22 +7,26 @@ import org.jfree.chart.ChartPanel;
 import org.jfree.chart.JFreeChart;
 import org.jfree.chart.axis.ValueAxis;
 import org.jfree.chart.plot.XYPlot;
-import org.jfree.data.time.Millisecond;
+import org.jfree.data.time.Second;
 import org.jfree.data.time.TimeSeries;
 import org.jfree.data.time.TimeSeriesCollection;
 
-public class Main {
-    static TimeSeries ts = new TimeSeries("data", Millisecond.class);
 
-    public static void main(String[] args) throws InterruptedException {
+public class GraphMaker {
+    
+    static TimeSeries ts = new TimeSeries("data", Second.class);
+    DataSingleton thisSurface;
+    
+    public void MakeGraph(DataSingleton surface){        
+        this.thisSurface = surface;
         gen myGen = new gen();
         new Thread(myGen).start();
-
+        String graphName = surface.current_surface.name;
         TimeSeriesCollection dataset = new TimeSeriesCollection(ts);
         JFreeChart chart = ChartFactory.createTimeSeriesChart(
-            "GraphTest",
+            graphName,
             "Time",
-            "Value",
+            "Temperature",
             dataset,
             true,
             true,
@@ -31,26 +35,24 @@ public class Main {
         final XYPlot plot = chart.getXYPlot();
         ValueAxis axis = plot.getDomainAxis();
         axis.setAutoRange(true);
-        axis.setFixedAutoRange(1180.0);
+        axis.setFixedAutoRange(900000.0);
 
-        JFrame frame = new JFrame("GraphTest");
+        JFrame frame = new JFrame(surface.current_surface.name);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         ChartPanel label = new ChartPanel(chart);
-        frame.getContentPane().add(label);
-        //Suppose I add combo boxes and buttons here later
+        frame.getContentPane().add(label);        
 
         frame.pack();
         frame.setVisible(true);
     }
 
-    static class gen implements Runnable {
-        private Random randGen = new Random();
+    public class gen implements Runnable {  
 
+        @Override
         public void run() {
-            while(true) {
-                int num = randGen.nextInt(80);
-                System.out.println(num);
-                ts.addOrUpdate(new Millisecond(), num);
+            while(true) {                     
+                double temp = thisSurface.current_surface.temp_water;                     
+                ts.addOrUpdate(new Second(), temp);
                 try {
                     Thread.sleep(20);
                 } catch (InterruptedException ex) {

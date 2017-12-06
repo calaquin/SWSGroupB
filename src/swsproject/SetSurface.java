@@ -92,7 +92,8 @@ public class SetSurface extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
+    public static GraphMaker newGraph;
+    
     private void btn_okActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_okActionPerformed
         if (this.isNumeric(this.txt_temp.getText())) {
             DataSingleton.getInstance().current_surface.name = this.txt_surface_name.getText();
@@ -101,6 +102,9 @@ public class SetSurface extends javax.swing.JFrame {
             DataSingleton.getInstance().surface_list.add(DataSingleton.getInstance().current_surface);
             this.setVisible(false);
             DataSingleton.getInstance().home_interface.draw_panel.repaint();
+            newGraph = new GraphMaker();
+            newGraph.MakeGraph(DataSingleton.getInstance());
+            
         }
     }//GEN-LAST:event_btn_okActionPerformed
 
