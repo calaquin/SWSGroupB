@@ -15,13 +15,13 @@ import org.jfree.data.time.TimeSeriesCollection;
 public class GraphMaker {
     
     static TimeSeries ts = new TimeSeries("data", Second.class);
-    DataSingleton thisSurface;
+    int thisSurface;
     
-    public void MakeGraph(DataSingleton surface){        
+    public void MakeGraph(int surface){        
         this.thisSurface = surface;
         gen myGen = new gen();
         new Thread(myGen).start();
-        String graphName = surface.current_surface.name;
+        String graphName = DataSingleton.getInstance().surface_list.get(surface).name;
         TimeSeriesCollection dataset = new TimeSeriesCollection(ts);
         JFreeChart chart = ChartFactory.createTimeSeriesChart(
             graphName,
@@ -35,9 +35,9 @@ public class GraphMaker {
         final XYPlot plot = chart.getXYPlot();
         ValueAxis axis = plot.getDomainAxis();
         axis.setAutoRange(true);
-        axis.setFixedAutoRange(900000.0);
+        axis.setFixedAutoRange(90000.0);
 
-        JFrame frame = new JFrame(surface.current_surface.name);
+        JFrame frame = new JFrame(DataSingleton.getInstance().surface_list.get(surface).name);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         ChartPanel label = new ChartPanel(chart);
         frame.getContentPane().add(label);        
@@ -47,11 +47,10 @@ public class GraphMaker {
     }
 
     public class gen implements Runnable {  
-
         @Override
         public void run() {
             while(true) {                     
-                double temp = thisSurface.current_surface.temp_water;                     
+                double temp = DataSingleton.getInstance().surface_list.get(thisSurface).temp_water;                     
                 ts.addOrUpdate(new Second(), temp);
                 try {
                     Thread.sleep(20);

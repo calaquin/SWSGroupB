@@ -139,3 +139,27 @@
 2017-12-06 13:56:47,923 INFO  [HomeInterface] This is the simulation run time 
 2017-12-06 13:56:47,924 INFO  [HomeInterface] This is rain amount 
 2017-12-06 13:56:47,924 INFO  [HomeInterface] The time that remained 
+2017-12-06 14:09:07,476 INFO  [SWSProject] This is an info message. 
+2017-12-06 14:09:08,480 INFO  [HomeInterface] The user selects the roof as a surface 
+2017-12-06 14:09:21,505 INFO  [HomeInterface] The user selects grass as surface 
+2017-12-06 14:09:48,440 INFO  [HomeInterface] This is the simulation run time 
+2017-12-06 14:09:48,440 INFO  [HomeInterface] This is rain amount 
+2017-12-06 14:09:48,440 INFO  [HomeInterface] The time that remained 
+2017-12-06 14:10:09,943 INFO  [SWSProject] This is an info message. 
+2017-12-06 14:10:11,003 INFO  [HomeInterface] The user selects grass as surface 
+2017-12-06 14:10:22,746 INFO  [HomeInterface] The user selects the roof as a surface 
+2017-12-06 14:16:24,012 INFO  [SWSProject] This is an info message. 
+2017-12-06 14:16:25,122 INFO  [HomeInterface] The user selects grass as surface 
+2017-12-06 14:16:42,797 INFO  [SWSProject] This is an info message. 
+2017-12-06 14:16:43,695 INFO  [HomeInterface] The user selects grass as surface 
+2017-12-06 14:16:53,444 INFO  [HomeInterface] The user selects the asphalt surface 
+2017-12-06 14:17:06,779 INFO  [HomeInterface] This is the simulation run time 
+2017-12-06 14:17:06,779 INFO  [HomeInterface] This is rain amount 
+2017-12-06 14:17:06,779 INFO  [HomeInterface] The time that remained 
+2017-12-06 14:19:07,111 INFO  [SWSProject] This is an info message. 
+2017-12-06 14:19:08,437 INFO  [HomeInterface] The user selects grass as surface 
+2017-12-06 14:19:13,401 INFO  [HomeInterface] The user selects the roof as a surface 
+2017-12-06 14:19:24,472 INFO  [HomeInterface] The user selects the asphalt surface 
+2017-12-06 14:19:42,658 INFO  [HomeInterface] This is the simulation run time 
+2017-12-06 14:19:42,658 INFO  [HomeInterface] This is rain amount 
+2017-12-06 14:19:42,658 INFO  [HomeInterface] The time that remained 

@@ -102,8 +102,7 @@ public class SetSurface extends javax.swing.JFrame {
             DataSingleton.getInstance().surface_list.add(DataSingleton.getInstance().current_surface);
             this.setVisible(false);
             DataSingleton.getInstance().home_interface.draw_panel.repaint();
-            newGraph = new GraphMaker();
-            newGraph.MakeGraph(DataSingleton.getInstance());
+            
             
         }
     }//GEN-LAST:event_btn_okActionPerformed

@@ -10,6 +10,7 @@ import java.util.TimerTask;
 import org.apache.log4j.Logger;
 
 import org.apache.log4j.xml.DOMConfigurator;
+import static swsproject.SetSurface.newGraph;
 
 
 
@@ -378,6 +379,13 @@ public class HomeInterface extends javax.swing.JFrame {
         this.lbl_run_state.setVisible(true);
         this.lbl_remain_time.setVisible(true);
         
+        
+        // Display Graphs 
+        for (int i = 0; i < DataSingleton.getInstance().surface_list.size(); i++) {
+        newGraph = new GraphMaker();
+        newGraph.MakeGraph(i);
+        }
+        
         this.btn_grass.setEnabled(false);
         this.btn_roof.setEnabled(false);
         this.btn_asphalt.setEnabled(false);
@@ -447,6 +455,7 @@ public class HomeInterface extends javax.swing.JFrame {
                  DataSingleton.getInstance().surface_list.get(i).h_water = h_water;
                  System.out.println(String.valueOf(DataSingleton.getInstance().surface_list.get(i).h_water));
                  //System.out.println(String.temp_water);
+                
              }
              double sum_temp_water = 0.0;
              double sum_h_water = 0.0;
