@@ -1,8 +1,13 @@
 
 package swsproject;
+import org.apache.log4j.Logger;
+
+import org.apache.log4j.xml.DOMConfigurator;
 
 
 public class SetSurface extends javax.swing.JFrame {
+    private static final Logger log4j = Logger.getLogger(SetSurface.class 
+	        .getName());
 
     
     public SetSurface() {
@@ -96,8 +101,12 @@ public class SetSurface extends javax.swing.JFrame {
     
     private void btn_okActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_okActionPerformed
         if (this.isNumeric(this.txt_temp.getText())) {
+            DOMConfigurator.configure("log4j.xml");
+            log4j.info("The user enters the surface name and suface temperature");
             DataSingleton.getInstance().current_surface.name = this.txt_surface_name.getText();
+            log4j.info(this.txt_surface_name.getText());
             DataSingleton.getInstance().current_surface.temp_surface = Double.parseDouble(this.txt_temp.getText());
+            log4j.info(Double.parseDouble(this.txt_temp.getText()));
             DataSingleton.getInstance().current_surface.temp_water = Double.parseDouble(this.txt_temp.getText());
             DataSingleton.getInstance().surface_list.add(DataSingleton.getInstance().current_surface);
             this.setVisible(false);

@@ -13,7 +13,7 @@ public class SWSProject {
         DOMConfigurator.configure("log4j.xml");
         SWSProject st=new SWSProject();
         DataSingleton.getInstance().surface_list = new ArrayList<>();        
-        log4j.info("This is an info message."); 
+        log4j.info("The User Interface appears"); 
 
     }
     public SWSProject(){

@@ -13,12 +13,9 @@ import org.apache.log4j.xml.DOMConfigurator;
 import static swsproject.SetSurface.newGraph;
 
 
-
-
 public class HomeInterface extends javax.swing.JFrame {
       private static final Logger log4j = Logger.getLogger(HomeInterface.class 
-	        .getName());
-      
+	        .getName());      
     
     
     public HomeInterface() {
@@ -347,6 +344,8 @@ public class HomeInterface extends javax.swing.JFrame {
         DataSingleton.getInstance().draw_rect_state = 1;
         DataSingleton.getInstance().rect_type = 0;
        log4j.info("The user selects grass as surface"); 
+       log4j.info(DataSingleton.getInstance().draw_rect_state); 
+       log4j.info("The user starts drawing the surface");
         
     }//GEN-LAST:event_btn_grassActionPerformed
 
@@ -354,36 +353,49 @@ public class HomeInterface extends javax.swing.JFrame {
         DataSingleton.getInstance().draw_rect_state = 1;
         DataSingleton.getInstance().rect_type = 1;
         log4j.info("The user selects the roof as a surface"); 
-
+        log4j.info(DataSingleton.getInstance().draw_rect_state);
+        log4j.info("The user starts drawing the surface"); 
     }
 
     private void btn_asphaltActionPerformed(java.awt.event.ActionEvent evt) {                                            
         DataSingleton.getInstance().draw_rect_state = 1;
         DataSingleton.getInstance().rect_type = 2;
        log4j.info("The user selects the asphalt surface"); 
+       log4j.info(DataSingleton.getInstance().draw_rect_state);
+       log4j.info("The user starts drawing the surface");
 
     }
 
     private void btn_startActionPerformed(java.awt.event.ActionEvent evt) {
         DOMConfigurator.configure("log4j.xml");
         this.minutes = 60 * (Integer)this.sp_hours.getValue() + (Integer)this.sp_mins.getValue();
-        log4j.info("This is the simulation run time"); 
+        log4j.info("User enters the rain amount, rain temperature and simulation time");
         int rain_amount = (Integer)this.sp_rain_amount.getValue();
-        log4j.info("This is rain amount"); 
+        log4j.info("User Input Rain Amount: " + rain_amount);
         this.remained_time = this.minutes;
-        log4j.info("The time that remained"); 
+        log4j.info(this.remained_time); 
         this.h_rain = ((double)rain_amount)/(double)this.minutes;        
-        this.t_rain = (double)((Integer)this.sp_rain_temperature.getValue());        
+        this.t_rain = (double)((Integer)this.sp_rain_temperature.getValue()); 
+        log4j.info(t_rain);
         simulator_timer = new Timer();        
         simulator_timer.schedule(new simulator_task(), 0,1000);
         this.lbl_run_state.setVisible(true);
         this.lbl_remain_time.setVisible(true);
         
+        log4j.info("Jfreechart is loaded and graphs start to display");
+        log4j.info("Simulation starts");
         
-        // Display Graphs 
-        for (int i = 0; i < DataSingleton.getInstance().surface_list.size(); i++) {
-        newGraph = new GraphMaker();
-        newGraph.MakeGraph(i);
+        
+        
+        
+        
+        // Make and Display Graphs 
+        
+        for (int i = 0; i < DataSingleton.getInstance().surface_list.size(); i++) {            
+            newGraph = new GraphMaker();
+            newGraph.MakeGraph(i);
+            
+            log4j.info(DataSingleton.getInstance().getInstance().surface_list.get(i).name + " graph generated");
         }
         
         this.btn_grass.setEnabled(false);
@@ -432,6 +444,7 @@ public class HomeInterface extends javax.swing.JFrame {
              for (int i = 0; i < DataSingleton.getInstance().surface_list.size(); i++) {                 
                  double temp_water = DataSingleton.getInstance().surface_list.get(i).temp_water;
                  System.out.println("temp_water:" + String.valueOf(temp_water));
+                 
                  double temp_surface = DataSingleton.getInstance().surface_list.get(i).temp_surface;
                  double h_water = DataSingleton.getInstance().surface_list.get(i).h_water;
                  double h_apsorbe = DataSingleton.getInstance().surface_list.get(i).h_absorbe;
@@ -449,14 +462,23 @@ public class HomeInterface extends javax.swing.JFrame {
                  h_apsorbe = h_apsorbe - delta_h_down;
                  h_evaporabe = h_evaporabe + delta_h_up + delta_h_down;
                  temp_water = temp_water + (temp_surface-temp_water)/(1 + h_water * 100);
+                 log4j.info("Temperature of surface water");
                  DataSingleton.getInstance().surface_list.get(i).temp_water = temp_water;
+                 log4j.info(DataSingleton.getInstance().surface_list.get(i).temp_water);
+                 log4j.info("Height of surface water evaporated ");
                  DataSingleton.getInstance().surface_list.get(i).h_evaporabe = h_evaporabe;
+                 log4j.info(DataSingleton.getInstance().surface_list.get(i).h_evaporabe);
+                 log4j.info("Height of surface water absorbed");
                  DataSingleton.getInstance().surface_list.get(i).h_absorbe = h_apsorbe;
+                 log4j.info(DataSingleton.getInstance().surface_list.get(i).h_absorbe);
+                 log4j.info("Height of surface rain water");
                  DataSingleton.getInstance().surface_list.get(i).h_water = h_water;
+                 log4j.info(DataSingleton.getInstance().surface_list.get(i).h_water);
                  System.out.println(String.valueOf(DataSingleton.getInstance().surface_list.get(i).h_water));
                  //System.out.println(String.temp_water);
                 
              }
+             
              double sum_temp_water = 0.0;
              double sum_h_water = 0.0;
              double sum_h_apsorbe = 0.0;
@@ -473,10 +495,18 @@ public class HomeInterface extends javax.swing.JFrame {
                  sum_h_apsorbe = sum_h_apsorbe + h_apsorbe*DataSingleton.getInstance().surface_list.get(i).width*DataSingleton.getInstance().surface_list.get(i).height;
                  sum_h_evaporabe = sum_h_evaporabe + h_evaporabe*DataSingleton.getInstance().surface_list.get(i).width*DataSingleton.getInstance().surface_list.get(i).height;                         
              }
+             log4j.info("Height of water in channeling point");
              DataSingleton.getInstance().channel_surface.h_water = sum_h_water/sum_square;
+             log4j.info(DataSingleton.getInstance().channel_surface.h_water);
+             log4j.info("Height of water absorbed in channeling point");
              DataSingleton.getInstance().channel_surface.h_absorbe = sum_h_apsorbe/sum_square;
+             log4j.info(DataSingleton.getInstance().channel_surface.h_evaporabe);
+             log4j.info("Height of water evaporated in channeling point");
              DataSingleton.getInstance().channel_surface.h_evaporabe = sum_h_evaporabe/sum_square;
+             log4j.info(DataSingleton.getInstance().channel_surface.h_evaporabe);
+             log4j.info("Temperature of water in channeling point");
              DataSingleton.getInstance().channel_surface.temp_water = sum_temp_water/sum_square;
+             log4j.info(DataSingleton.getInstance().channel_surface.temp_water);
              lbl_point_height.setText(String.valueOf(String.valueOf(Math.round(DataSingleton.getInstance().channel_surface.h_water*100)/100.0) + " cm"));
              lbl_point_temp.setText(String.valueOf(String.valueOf(Math.round(DataSingleton.getInstance().channel_surface.temp_water*100)/100.0) + " C"));
              remained_time = remained_time -1;
@@ -504,7 +534,9 @@ public class HomeInterface extends javax.swing.JFrame {
             this.btn_start.setEnabled(false);
             this.btn_pause.setEnabled(false);
             this.btn_resume.setEnabled(true);
+            
         }
+        log4j.info("The simulation paused");
     }//GEN-LAST:event_btn_pauseActionPerformed
 
     private void btn_resumeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_resumeActionPerformed
@@ -525,6 +557,7 @@ public class HomeInterface extends javax.swing.JFrame {
             this.btn_pause.setEnabled(true);
             this.btn_resume.setEnabled(false);
         }
+        log4j.info("The simulation resumes");
         // TODO add your handling code here:
     }//GEN-LAST:event_btn_resumeActionPerformed
 

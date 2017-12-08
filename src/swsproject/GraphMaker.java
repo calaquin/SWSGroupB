@@ -1,6 +1,5 @@
 package swsproject;
 
-import java.util.Random;
 import javax.swing.JFrame;
 import org.jfree.chart.ChartFactory;
 import org.jfree.chart.ChartPanel;
@@ -12,13 +11,19 @@ import org.jfree.data.time.TimeSeries;
 import org.jfree.data.time.TimeSeriesCollection;
 
 
-public class GraphMaker {
+public class GraphMaker extends HomeInterface{
     
-    static TimeSeries ts = new TimeSeries("data", Second.class);
+    static TimeSeries ts = new TimeSeries("Second", Second.class);
     int thisSurface;
+    int graphMinutes;
     
+    public void updateMinutes(int mins)
+    {
+        this.graphMinutes = mins;
+    }
     public void MakeGraph(int surface){        
         this.thisSurface = surface;
+        this.graphMinutes = DataSingleton.getInstance().home_interface.remained_time;        
         gen myGen = new gen();
         new Thread(myGen).start();
         String graphName = DataSingleton.getInstance().surface_list.get(surface).name;
@@ -38,7 +43,6 @@ public class GraphMaker {
         //axis.setFixedAutoRange(9000.0);
 
         JFrame frame = new JFrame(DataSingleton.getInstance().surface_list.get(surface).name);
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         ChartPanel label = new ChartPanel(chart);
         frame.getContentPane().add(label);        
 
@@ -47,18 +51,22 @@ public class GraphMaker {
     }
 
     public class gen implements Runnable {  
-        @Override
-        public void run() {
-            while(true) {                     
-                double temp = DataSingleton.getInstance().surface_list.get(thisSurface).temp_water;                     
+        //@Override
+        public void run() {            
+            while(graphMinutes > 0) {   
+                graphMinutes = DataSingleton.getInstance().home_interface.remained_time;
+                double temp = DataSingleton.getInstance().surface_list.get(thisSurface).temp_water;  
+                //System.out.println("This Surface: " + DataSingleton.getInstance().surface_list.get(thisSurface).name + " " + temp);
                 ts.addOrUpdate(new Second(), temp);
                 try {
-                    Thread.sleep(20);
+                    Thread.sleep(120);
                 } catch (InterruptedException ex) {
                     System.out.println(ex);
                 }
+            }            
             }
         }
     }
 
-}
+
+ //graphMinutes > 0

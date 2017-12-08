@@ -1,214 +1,261 @@
-2017-11-29 12:02:28,803 INFO  [SWSProject] This is an info message. 
-2017-12-02 20:03:21,406 INFO  [SWSProject] This is an info message. 
-2017-12-02 20:15:46,474 INFO  [SWSProject] This is an info message. 
-2017-12-02 20:16:50,119 INFO  [HomeInterface] This is the time 
-2017-12-02 20:33:07,273 INFO  [SWSProject] This is an info message. 
-2017-12-02 20:33:22,813 INFO  [HomeInterface] The user selects grass as surface 
-2017-12-02 20:33:22,829 INFO  [HomeInterface] The user selects grass as surface 
-2017-12-02 20:35:08,795 INFO  [HomeInterface] The user selects the roof as a surface 
-2017-12-02 20:35:58,272 INFO  [SWSProject] This is an info message. 
-2017-12-02 20:37:03,507 INFO  [SWSProject] This is an info message. 
-2017-12-02 20:48:49,981 INFO  [SWSProject] This is an info message. 
-2017-12-02 20:49:43,694 INFO  [SWSProject] This is an info message. 
-2017-12-02 20:49:46,976 INFO  [HomeInterface] The user selects grass as surface 
-2017-12-02 20:49:59,217 INFO  [HomeInterface] The user selects the roof as a surface 
-2017-12-02 20:50:14,355 INFO  [HomeInterface] The user selects the asphalt surface 
-2017-12-02 20:50:46,756 INFO  [HomeInterface] This is the simulation run time 
-2017-12-02 20:50:46,756 INFO  [HomeInterface] This is rain amount 
-2017-12-02 20:50:46,756 INFO  [HomeInterface] The time that remained 
-2017-12-04 19:49:25,497 INFO  [SWSProject] This is an info message. 
-2017-12-05 18:18:16,216 INFO  [SWSProject] This is an info message. 
-2017-12-05 18:18:21,365 INFO  [HomeInterface] The user selects grass as surface 
-2017-12-05 18:19:34,744 INFO  [SWSProject] This is an info message. 
-2017-12-05 18:19:42,820 INFO  [HomeInterface] The user selects grass as surface 
-2017-12-05 18:20:32,396 INFO  [SWSProject] This is an info message. 
-2017-12-05 18:20:34,219 INFO  [HomeInterface] The user selects the asphalt surface 
-2017-12-05 19:22:37,857 INFO  [SWSProject] This is an info message. 
-2017-12-05 19:22:39,208 INFO  [HomeInterface] The user selects grass as surface 
-2017-12-05 19:59:47,061 INFO  [SWSProject] This is an info message. 
-2017-12-05 20:00:02,161 INFO  [SWSProject] This is an info message. 
-2017-12-05 20:11:50,901 INFO  [SWSProject] This is an info message. 
-2017-12-05 20:11:52,318 INFO  [HomeInterface] The user selects grass as surface 
-2017-12-05 20:11:59,613 INFO  [HomeInterface] This is the simulation run time 
-2017-12-05 20:11:59,613 INFO  [HomeInterface] This is rain amount 
-2017-12-05 20:11:59,613 INFO  [HomeInterface] The time that remained 
-2017-12-05 20:14:13,221 INFO  [SWSProject] This is an info message. 
-2017-12-05 20:14:14,845 INFO  [HomeInterface] The user selects grass as surface 
-2017-12-05 20:14:23,365 INFO  [HomeInterface] This is the simulation run time 
-2017-12-05 20:14:23,365 INFO  [HomeInterface] This is rain amount 
-2017-12-05 20:14:23,365 INFO  [HomeInterface] The time that remained 
-2017-12-05 20:16:02,399 INFO  [SWSProject] This is an info message. 
-2017-12-05 20:16:11,157 INFO  [HomeInterface] The user selects grass as surface 
-2017-12-05 20:16:20,028 INFO  [HomeInterface] This is the simulation run time 
-2017-12-05 20:16:20,028 INFO  [HomeInterface] This is rain amount 
-2017-12-05 20:16:20,028 INFO  [HomeInterface] The time that remained 
-2017-12-05 20:17:36,241 INFO  [SWSProject] This is an info message. 
-2017-12-05 20:17:37,444 INFO  [HomeInterface] The user selects grass as surface 
-2017-12-05 20:17:46,301 INFO  [HomeInterface] This is the simulation run time 
-2017-12-05 20:17:46,301 INFO  [HomeInterface] This is rain amount 
-2017-12-05 20:17:46,301 INFO  [HomeInterface] The time that remained 
-2017-12-05 20:26:24,670 INFO  [SWSProject] This is an info message. 
-2017-12-05 20:26:28,491 INFO  [HomeInterface] The user selects grass as surface 
-2017-12-05 20:26:37,716 INFO  [HomeInterface] This is the simulation run time 
-2017-12-05 20:26:37,716 INFO  [HomeInterface] This is rain amount 
-2017-12-05 20:26:37,716 INFO  [HomeInterface] The time that remained 
-2017-12-05 20:31:22,078 INFO  [SWSProject] This is an info message. 
-2017-12-06 12:58:28,054 INFO  [SWSProject] This is an info message. 
-2017-12-06 12:58:29,288 INFO  [HomeInterface] The user selects grass as surface 
-2017-12-06 12:58:37,475 INFO  [HomeInterface] This is the simulation run time 
-2017-12-06 12:58:37,475 INFO  [HomeInterface] This is rain amount 
-2017-12-06 12:58:37,475 INFO  [HomeInterface] The time that remained 
-2017-12-06 13:02:40,890 INFO  [SWSProject] This is an info message. 
-2017-12-06 13:14:59,739 INFO  [SWSProject] This is an info message. 
-2017-12-06 13:15:01,042 INFO  [HomeInterface] The user selects grass as surface 
-2017-12-06 13:15:08,989 INFO  [HomeInterface] This is the simulation run time 
-2017-12-06 13:15:08,989 INFO  [HomeInterface] This is rain amount 
-2017-12-06 13:15:08,989 INFO  [HomeInterface] The time that remained 
-2017-12-06 13:15:49,090 INFO  [SWSProject] This is an info message. 
-2017-12-06 13:15:50,578 INFO  [HomeInterface] The user selects grass as surface 
-2017-12-06 13:15:58,572 INFO  [HomeInterface] This is the simulation run time 
-2017-12-06 13:15:58,572 INFO  [HomeInterface] This is rain amount 
-2017-12-06 13:15:58,572 INFO  [HomeInterface] The time that remained 
-2017-12-06 13:17:40,705 INFO  [SWSProject] This is an info message. 
-2017-12-06 13:17:44,978 INFO  [HomeInterface] The user selects grass as surface 
-2017-12-06 13:18:02,090 INFO  [HomeInterface] This is the simulation run time 
-2017-12-06 13:18:02,090 INFO  [HomeInterface] This is rain amount 
-2017-12-06 13:18:02,090 INFO  [HomeInterface] The time that remained 
-2017-12-06 13:18:41,693 INFO  [SWSProject] This is an info message. 
-2017-12-06 13:20:14,849 INFO  [SWSProject] This is an info message. 
-2017-12-06 13:20:17,859 INFO  [HomeInterface] The user selects grass as surface 
-2017-12-06 13:20:25,486 INFO  [HomeInterface] This is the simulation run time 
-2017-12-06 13:20:25,486 INFO  [HomeInterface] This is rain amount 
-2017-12-06 13:20:25,486 INFO  [HomeInterface] The time that remained 
-2017-12-06 13:22:13,631 INFO  [SWSProject] This is an info message. 
-2017-12-06 13:22:14,540 INFO  [HomeInterface] The user selects grass as surface 
-2017-12-06 13:22:24,055 INFO  [HomeInterface] This is the simulation run time 
-2017-12-06 13:22:24,055 INFO  [HomeInterface] This is rain amount 
-2017-12-06 13:22:24,055 INFO  [HomeInterface] The time that remained 
-2017-12-06 13:31:54,926 INFO  [SWSProject] This is an info message. 
-2017-12-06 13:31:56,004 INFO  [HomeInterface] The user selects grass as surface 
-2017-12-06 13:32:07,625 INFO  [HomeInterface] This is the simulation run time 
-2017-12-06 13:32:07,625 INFO  [HomeInterface] This is rain amount 
-2017-12-06 13:32:07,625 INFO  [HomeInterface] The time that remained 
-2017-12-06 13:33:42,761 INFO  [SWSProject] This is an info message. 
-2017-12-06 13:33:43,856 INFO  [HomeInterface] The user selects the roof as a surface 
-2017-12-06 13:42:13,525 INFO  [SWSProject] This is an info message. 
-2017-12-06 13:42:14,523 INFO  [HomeInterface] The user selects the roof as a surface 
-2017-12-06 13:42:22,968 INFO  [HomeInterface] The user selects the asphalt surface 
-2017-12-06 13:42:35,561 INFO  [HomeInterface] This is the simulation run time 
-2017-12-06 13:42:35,561 INFO  [HomeInterface] This is rain amount 
-2017-12-06 13:42:35,561 INFO  [HomeInterface] The time that remained 
-2017-12-06 13:43:30,810 INFO  [SWSProject] This is an info message. 
-2017-12-06 13:43:31,771 INFO  [HomeInterface] The user selects the roof as a surface 
-2017-12-06 13:43:43,015 INFO  [HomeInterface] This is the simulation run time 
-2017-12-06 13:43:43,015 INFO  [HomeInterface] This is rain amount 
-2017-12-06 13:43:43,015 INFO  [HomeInterface] The time that remained 
-2017-12-06 13:45:58,578 INFO  [SWSProject] This is an info message. 
-2017-12-06 13:45:59,520 INFO  [HomeInterface] The user selects the roof as a surface 
-2017-12-06 13:47:24,461 INFO  [SWSProject] This is an info message. 
-2017-12-06 13:47:25,325 INFO  [HomeInterface] The user selects the roof as a surface 
-2017-12-06 13:47:39,555 INFO  [HomeInterface] This is the simulation run time 
-2017-12-06 13:47:39,555 INFO  [HomeInterface] This is rain amount 
-2017-12-06 13:47:39,555 INFO  [HomeInterface] The time that remained 
-2017-12-06 13:48:06,984 INFO  [SWSProject] This is an info message. 
-2017-12-06 13:48:08,127 INFO  [HomeInterface] The user selects the roof as a surface 
-2017-12-06 13:48:08,448 INFO  [HomeInterface] The user selects the roof as a surface 
-2017-12-06 13:49:34,311 INFO  [SWSProject] This is an info message. 
-2017-12-06 13:49:35,438 INFO  [HomeInterface] The user selects the asphalt surface 
-2017-12-06 13:49:51,959 INFO  [HomeInterface] This is the simulation run time 
-2017-12-06 13:49:51,959 INFO  [HomeInterface] This is rain amount 
-2017-12-06 13:49:51,959 INFO  [HomeInterface] The time that remained 
-2017-12-06 13:51:43,964 INFO  [SWSProject] This is an info message. 
-2017-12-06 13:51:45,281 INFO  [HomeInterface] The user selects grass as surface 
-2017-12-06 13:51:53,685 INFO  [HomeInterface] This is the simulation run time 
-2017-12-06 13:51:53,685 INFO  [HomeInterface] This is rain amount 
-2017-12-06 13:51:53,685 INFO  [HomeInterface] The time that remained 
-2017-12-06 13:53:41,016 INFO  [SWSProject] This is an info message. 
-2017-12-06 13:53:42,012 INFO  [HomeInterface] The user selects the asphalt surface 
-2017-12-06 13:54:02,337 INFO  [SWSProject] This is an info message. 
-2017-12-06 13:54:03,131 INFO  [HomeInterface] The user selects the asphalt surface 
-2017-12-06 13:55:10,046 INFO  [SWSProject] This is an info message. 
-2017-12-06 13:55:27,839 INFO  [SWSProject] This is an info message. 
-2017-12-06 13:56:10,333 INFO  [SWSProject] This is an info message. 
-2017-12-06 13:56:11,404 INFO  [HomeInterface] The user selects the roof as a surface 
-2017-12-06 13:56:20,963 INFO  [HomeInterface] This is the simulation run time 
-2017-12-06 13:56:20,963 INFO  [HomeInterface] This is rain amount 
-2017-12-06 13:56:20,963 INFO  [HomeInterface] The time that remained 
-2017-12-06 13:56:34,243 INFO  [SWSProject] This is an info message. 
-2017-12-06 13:56:35,357 INFO  [HomeInterface] The user selects the roof as a surface 
-2017-12-06 13:56:47,923 INFO  [HomeInterface] This is the simulation run time 
-2017-12-06 13:56:47,924 INFO  [HomeInterface] This is rain amount 
-2017-12-06 13:56:47,924 INFO  [HomeInterface] The time that remained 
-2017-12-06 14:09:07,476 INFO  [SWSProject] This is an info message. 
-2017-12-06 14:09:08,480 INFO  [HomeInterface] The user selects the roof as a surface 
-2017-12-06 14:09:21,505 INFO  [HomeInterface] The user selects grass as surface 
-2017-12-06 14:09:48,440 INFO  [HomeInterface] This is the simulation run time 
-2017-12-06 14:09:48,440 INFO  [HomeInterface] This is rain amount 
-2017-12-06 14:09:48,440 INFO  [HomeInterface] The time that remained 
-2017-12-06 14:10:09,943 INFO  [SWSProject] This is an info message. 
-2017-12-06 14:10:11,003 INFO  [HomeInterface] The user selects grass as surface 
-2017-12-06 14:10:22,746 INFO  [HomeInterface] The user selects the roof as a surface 
-2017-12-06 14:16:24,012 INFO  [SWSProject] This is an info message. 
-2017-12-06 14:16:25,122 INFO  [HomeInterface] The user selects grass as surface 
-2017-12-06 14:16:42,797 INFO  [SWSProject] This is an info message. 
-2017-12-06 14:16:43,695 INFO  [HomeInterface] The user selects grass as surface 
-2017-12-06 14:16:53,444 INFO  [HomeInterface] The user selects the asphalt surface 
-2017-12-06 14:17:06,779 INFO  [HomeInterface] This is the simulation run time 
-2017-12-06 14:17:06,779 INFO  [HomeInterface] This is rain amount 
-2017-12-06 14:17:06,779 INFO  [HomeInterface] The time that remained 
-2017-12-06 14:19:07,111 INFO  [SWSProject] This is an info message. 
-2017-12-06 14:19:08,437 INFO  [HomeInterface] The user selects grass as surface 
-2017-12-06 14:19:13,401 INFO  [HomeInterface] The user selects the roof as a surface 
-2017-12-06 14:19:24,472 INFO  [HomeInterface] The user selects the asphalt surface 
-2017-12-06 14:19:42,658 INFO  [HomeInterface] This is the simulation run time 
-2017-12-06 14:19:42,658 INFO  [HomeInterface] This is rain amount 
-2017-12-06 14:19:42,658 INFO  [HomeInterface] The time that remained 
-2017-12-06 14:36:00,228 INFO  [SWSProject] This is an info message. 
-2017-12-06 14:36:07,083 INFO  [HomeInterface] The user selects the asphalt surface 
-2017-12-06 14:36:18,003 INFO  [HomeInterface] The user selects grass as surface 
-2017-12-06 14:36:32,850 INFO  [HomeInterface] This is the simulation run time 
-2017-12-06 14:36:32,851 INFO  [HomeInterface] This is rain amount 
-2017-12-06 14:36:32,851 INFO  [HomeInterface] The time that remained 
-2017-12-06 14:37:25,168 INFO  [SWSProject] This is an info message. 
-2017-12-06 14:37:39,796 INFO  [HomeInterface] The user selects grass as surface 
-2017-12-06 14:37:46,152 INFO  [HomeInterface] This is the simulation run time 
-2017-12-06 14:37:46,152 INFO  [HomeInterface] This is rain amount 
-2017-12-06 14:37:46,152 INFO  [HomeInterface] The time that remained 
-2017-12-06 14:39:09,082 INFO  [SWSProject] This is an info message. 
-2017-12-06 14:39:10,510 INFO  [HomeInterface] The user selects the asphalt surface 
-2017-12-06 14:39:21,178 INFO  [HomeInterface] This is the simulation run time 
-2017-12-06 14:39:21,178 INFO  [HomeInterface] This is rain amount 
-2017-12-06 14:39:21,178 INFO  [HomeInterface] The time that remained 
-2017-12-06 14:39:54,937 INFO  [SWSProject] This is an info message. 
-2017-12-06 14:39:55,934 INFO  [HomeInterface] The user selects the asphalt surface 
-2017-12-06 14:40:02,831 INFO  [HomeInterface] This is the simulation run time 
-2017-12-06 14:40:02,831 INFO  [HomeInterface] This is rain amount 
-2017-12-06 14:40:02,831 INFO  [HomeInterface] The time that remained 
-2017-12-06 14:40:24,540 INFO  [SWSProject] This is an info message. 
-2017-12-06 14:40:25,537 INFO  [HomeInterface] The user selects the asphalt surface 
-2017-12-06 14:40:33,359 INFO  [HomeInterface] The user selects grass as surface 
-2017-12-06 14:40:46,301 INFO  [HomeInterface] This is the simulation run time 
-2017-12-06 14:40:46,301 INFO  [HomeInterface] This is rain amount 
-2017-12-06 14:40:46,301 INFO  [HomeInterface] The time that remained 
-2017-12-06 14:41:32,766 INFO  [SWSProject] This is an info message. 
-2017-12-06 14:41:33,792 INFO  [HomeInterface] The user selects the asphalt surface 
-2017-12-06 14:41:42,420 INFO  [HomeInterface] This is the simulation run time 
-2017-12-06 14:41:42,420 INFO  [HomeInterface] This is rain amount 
-2017-12-06 14:41:42,420 INFO  [HomeInterface] The time that remained 
-2017-12-06 14:42:41,060 INFO  [SWSProject] This is an info message. 
-2017-12-06 14:42:42,423 INFO  [HomeInterface] The user selects grass as surface 
-2017-12-06 14:42:54,595 INFO  [HomeInterface] This is the simulation run time 
-2017-12-06 14:42:54,595 INFO  [HomeInterface] This is rain amount 
-2017-12-06 14:42:54,595 INFO  [HomeInterface] The time that remained 
-2017-12-06 14:43:14,862 INFO  [SWSProject] This is an info message. 
-2017-12-06 14:43:15,838 INFO  [HomeInterface] The user selects grass as surface 
-2017-12-06 14:43:22,875 INFO  [HomeInterface] The user selects the asphalt surface 
-2017-12-06 14:43:23,610 INFO  [HomeInterface] The user selects grass as surface 
-2017-12-06 14:43:37,322 INFO  [HomeInterface] This is the simulation run time 
-2017-12-06 14:43:37,322 INFO  [HomeInterface] This is rain amount 
-2017-12-06 14:43:37,322 INFO  [HomeInterface] The time that remained 
-2017-12-06 14:45:43,279 INFO  [SWSProject] This is an info message. 
-2017-12-06 14:45:44,411 INFO  [HomeInterface] The user selects grass as surface 
-2017-12-06 14:46:02,878 INFO  [HomeInterface] This is the simulation run time 
-2017-12-06 14:46:02,878 INFO  [HomeInterface] This is rain amount 
-2017-12-06 14:46:02,878 INFO  [HomeInterface] The time that remained 
+2017-12-08 15:18:46,706 INFO  [SWSProject] The User Interface appears 
+2017-12-08 15:18:47,883 INFO  [HomeInterface] The user selects the roof as a surface 
+2017-12-08 15:18:47,883 INFO  [HomeInterface] 1 
+2017-12-08 15:18:47,883 INFO  [HomeInterface] The user starts drawing the surface 
+2017-12-08 15:18:50,297 INFO  [SetSurface] The user enters the surface name and suface temperature 
+2017-12-08 15:18:50,297 INFO  [SetSurface] ff 
+2017-12-08 15:18:50,297 INFO  [SetSurface] 2.0 
+2017-12-08 15:18:51,037 INFO  [HomeInterface] The user selects the asphalt surface 
+2017-12-08 15:18:51,037 INFO  [HomeInterface] 1 
+2017-12-08 15:18:51,037 INFO  [HomeInterface] The user starts drawing the surface 
+2017-12-08 15:18:55,397 INFO  [SetSurface] The user enters the surface name and suface temperature 
+2017-12-08 15:18:55,397 INFO  [SetSurface] ff2 
+2017-12-08 15:18:55,397 INFO  [SetSurface] 1.0 
+2017-12-08 15:18:58,391 INFO  [HomeInterface] User enters the rain amount, rain temperature and simulation time 
+2017-12-08 15:18:58,391 INFO  [HomeInterface] User Input Rain Amount: 10 
+2017-12-08 15:18:58,391 INFO  [HomeInterface] 10 
+2017-12-08 15:18:58,391 INFO  [HomeInterface] 10.0 
+2017-12-08 15:18:58,392 INFO  [HomeInterface] Temperature of surface water 
+2017-12-08 15:18:58,393 INFO  [HomeInterface] 2.0 
+2017-12-08 15:18:58,393 INFO  [HomeInterface] Height of surface water evaporated  
+2017-12-08 15:18:58,393 INFO  [HomeInterface] 0.0012000000000000001 
+2017-12-08 15:18:58,393 INFO  [HomeInterface] Jfreechart is loaded and graphs start to display 
+2017-12-08 15:18:58,393 INFO  [HomeInterface] Height of surface water absorbed 
+2017-12-08 15:18:58,393 INFO  [HomeInterface] 0.9988 
+2017-12-08 15:18:58,393 INFO  [HomeInterface] Height of surface rain water 
+2017-12-08 15:18:58,393 INFO  [HomeInterface] 0.0 
+2017-12-08 15:18:58,393 INFO  [HomeInterface] Simulation starts 
+2017-12-08 15:18:58,393 INFO  [HomeInterface] Temperature of surface water 
+2017-12-08 15:18:58,393 INFO  [HomeInterface] 1.0 
+2017-12-08 15:18:58,394 INFO  [HomeInterface] Height of surface water evaporated  
+2017-12-08 15:18:58,394 INFO  [HomeInterface] 0.0011 
+2017-12-08 15:18:58,394 INFO  [HomeInterface] Height of surface water absorbed 
+2017-12-08 15:18:58,394 INFO  [HomeInterface] 0.9989 
+2017-12-08 15:18:58,394 INFO  [HomeInterface] Height of surface rain water 
+2017-12-08 15:18:58,394 INFO  [HomeInterface] 0.0 
+2017-12-08 15:18:58,394 INFO  [HomeInterface] Height of water in channeling point 
+2017-12-08 15:18:58,394 INFO  [HomeInterface] 0.0 
+2017-12-08 15:18:58,394 INFO  [HomeInterface] Height of water absorbed in channeling point 
+2017-12-08 15:18:58,394 INFO  [HomeInterface] 0.0 
+2017-12-08 15:18:58,394 INFO  [HomeInterface] Height of water evaporated in channeling point 
+2017-12-08 15:18:58,394 INFO  [HomeInterface] 0.001144661267483169 
+2017-12-08 15:18:58,394 INFO  [HomeInterface] Temperature of water in channeling point 
+2017-12-08 15:18:58,394 INFO  [HomeInterface] 1.4466126748316896 
+2017-12-08 15:18:58,578 INFO  [HomeInterface] ff graph generated 
+2017-12-08 15:18:58,628 INFO  [HomeInterface] ff2 graph generated 
+2017-12-08 15:18:59,393 INFO  [HomeInterface] Temperature of surface water 
+2017-12-08 15:18:59,393 INFO  [HomeInterface] 9.90299842261815 
+2017-12-08 15:18:59,393 INFO  [HomeInterface] Height of surface water evaporated  
+2017-12-08 15:18:59,393 INFO  [HomeInterface] 0.0024000000000000002 
+2017-12-08 15:18:59,393 INFO  [HomeInterface] Height of surface water absorbed 
+2017-12-08 15:18:59,393 INFO  [HomeInterface] 1.182871143426069 
+2017-12-08 15:18:59,393 INFO  [HomeInterface] Height of surface rain water 
+2017-12-08 15:18:59,393 INFO  [HomeInterface] 0.814728856573931 
+2017-12-08 15:18:59,393 INFO  [HomeInterface] Temperature of surface water 
+2017-12-08 15:18:59,393 INFO  [HomeInterface] 9.872412968948261 
+2017-12-08 15:18:59,393 INFO  [HomeInterface] Height of surface water evaporated  
+2017-12-08 15:18:59,393 INFO  [HomeInterface] 0.0022 
+2017-12-08 15:18:59,393 INFO  [HomeInterface] Height of surface water absorbed 
+2017-12-08 15:18:59,393 INFO  [HomeInterface] 1.3023991511981883 
+2017-12-08 15:18:59,393 INFO  [HomeInterface] Height of surface rain water 
+2017-12-08 15:18:59,393 INFO  [HomeInterface] 0.6954008488018117 
+2017-12-08 15:18:59,393 INFO  [HomeInterface] Height of water in channeling point 
+2017-12-08 15:18:59,393 INFO  [HomeInterface] 0.7486942495352545 
+2017-12-08 15:18:59,393 INFO  [HomeInterface] Height of water absorbed in channeling point 
+2017-12-08 15:18:59,393 INFO  [HomeInterface] 0.001144661267483169 
+2017-12-08 15:18:59,393 INFO  [HomeInterface] Height of water evaporated in channeling point 
+2017-12-08 15:18:59,393 INFO  [HomeInterface] 0.002289322534966338 
+2017-12-08 15:18:59,394 INFO  [HomeInterface] Temperature of water in channeling point 
+2017-12-08 15:18:59,394 INFO  [HomeInterface] 9.88607282022271 
+2017-12-08 15:19:00,393 INFO  [HomeInterface] Temperature of surface water 
+2017-12-08 15:19:00,393 INFO  [HomeInterface] 9.909185750242079 
+2017-12-08 15:19:00,393 INFO  [HomeInterface] Height of surface water evaporated  
+2017-12-08 15:19:00,393 INFO  [HomeInterface] 0.0035956450803137953 
+2017-12-08 15:19:00,393 INFO  [HomeInterface] Height of surface water absorbed 
+2017-12-08 15:19:00,393 INFO  [HomeInterface] 1.3230357102961838 
+2017-12-08 15:19:00,393 INFO  [HomeInterface] Height of surface rain water 
+2017-12-08 15:19:00,393 INFO  [HomeInterface] 1.6733686446235025 
+2017-12-08 15:19:00,393 INFO  [HomeInterface] Temperature of surface water 
+2017-12-08 15:19:00,393 INFO  [HomeInterface] 9.88712619303305 
+2017-12-08 15:19:00,393 INFO  [HomeInterface] Height of surface water evaporated  
+2017-12-08 15:19:00,394 INFO  [HomeInterface] 0.003294766775671241 
+2017-12-08 15:19:00,394 INFO  [HomeInterface] Height of surface water absorbed 
+2017-12-08 15:19:00,394 INFO  [HomeInterface] 1.5287672327952675 
+2017-12-08 15:19:00,394 INFO  [HomeInterface] Height of surface rain water 
+2017-12-08 15:19:00,394 INFO  [HomeInterface] 1.4679380004290614 
+2017-12-08 15:19:00,394 INFO  [HomeInterface] Height of water in channeling point 
+2017-12-08 15:19:00,394 INFO  [HomeInterface] 1.5596859299251378 
+2017-12-08 15:19:00,394 INFO  [HomeInterface] Height of water absorbed in channeling point 
+2017-12-08 15:19:00,394 INFO  [HomeInterface] 0.002289322534966338 
+2017-12-08 15:19:00,394 INFO  [HomeInterface] Height of water evaporated in channeling point 
+2017-12-08 15:19:00,394 INFO  [HomeInterface] 0.003429142840106476 
+2017-12-08 15:19:00,394 INFO  [HomeInterface] Temperature of water in channeling point 
+2017-12-08 15:19:00,394 INFO  [HomeInterface] 9.896978270883778 
+2017-12-08 15:19:01,393 INFO  [HomeInterface] Temperature of surface water 
+2017-12-08 15:19:01,393 INFO  [HomeInterface] 9.912221160868034 
+2017-12-08 15:19:01,393 INFO  [HomeInterface] Height of surface water evaporated  
+2017-12-08 15:19:01,393 INFO  [HomeInterface] 0.0047899606522295675 
+2017-12-08 15:19:01,393 INFO  [HomeInterface] Height of surface water absorbed 
+2017-12-08 15:19:01,393 INFO  [HomeInterface] 1.4374812084483701 
+2017-12-08 15:19:01,393 INFO  [HomeInterface] Height of surface rain water 
+2017-12-08 15:19:01,393 INFO  [HomeInterface] 2.557728830899401 
+2017-12-08 15:19:01,393 INFO  [HomeInterface] Temperature of surface water 
+2017-12-08 15:19:01,393 INFO  [HomeInterface] 9.893902034170416 
+2017-12-08 15:19:01,393 INFO  [HomeInterface] Height of surface water evaporated  
+2017-12-08 15:19:01,393 INFO  [HomeInterface] 0.004388053002858833 
+2017-12-08 15:19:01,393 INFO  [HomeInterface] Height of surface water absorbed 
+2017-12-08 15:19:01,393 INFO  [HomeInterface] 1.7127968108582243 
+2017-12-08 15:19:01,394 INFO  [HomeInterface] Height of surface rain water 
+2017-12-08 15:19:01,394 INFO  [HomeInterface] 2.282815136138917 
+2017-12-08 15:19:01,394 INFO  [HomeInterface] Height of water in channeling point 
+2017-12-08 15:19:01,394 INFO  [HomeInterface] 2.4055950767037593 
+2017-12-08 15:19:01,394 INFO  [HomeInterface] Height of water absorbed in channeling point 
+2017-12-08 15:19:01,394 INFO  [HomeInterface] 0.003429142840106476 
+2017-12-08 15:19:01,394 INFO  [HomeInterface] Height of water evaporated in channeling point 
+2017-12-08 15:19:01,394 INFO  [HomeInterface] 0.004567550053179614 
+2017-12-08 15:19:01,394 INFO  [HomeInterface] Temperature of water in channeling point 
+2017-12-08 15:19:01,394 INFO  [HomeInterface] 9.90208358834542 
+2017-12-08 15:19:02,393 INFO  [HomeInterface] Temperature of surface water 
+2017-12-08 15:19:02,393 INFO  [HomeInterface] 9.914016292159607 
+2017-12-08 15:19:02,393 INFO  [HomeInterface] Height of surface water evaporated  
+2017-12-08 15:19:02,393 INFO  [HomeInterface] 0.005983650040087327 
+2017-12-08 15:19:02,393 INFO  [HomeInterface] Height of surface water absorbed 
+2017-12-08 15:19:02,393 INFO  [HomeInterface] 1.5347282294546705 
+2017-12-08 15:19:02,393 INFO  [HomeInterface] Height of surface rain water 
+2017-12-08 15:19:02,393 INFO  [HomeInterface] 3.459288120505243 
+2017-12-08 15:19:02,393 INFO  [HomeInterface] Temperature of surface water 
+2017-12-08 15:19:02,393 INFO  [HomeInterface] 9.897750914241675 
+2017-12-08 15:19:02,393 INFO  [HomeInterface] Height of surface water evaporated  
+2017-12-08 15:19:02,393 INFO  [HomeInterface] 0.005480675126485503 
+2017-12-08 15:19:02,393 INFO  [HomeInterface] Height of surface water absorbed 
+2017-12-08 15:19:02,393 INFO  [HomeInterface] 1.8692470127362266 
+2017-12-08 15:19:02,393 INFO  [HomeInterface] Height of surface rain water 
+2017-12-08 15:19:02,393 INFO  [HomeInterface] 3.125272312137288 
+2017-12-08 15:19:02,393 INFO  [HomeInterface] Height of water in channeling point 
+2017-12-08 15:19:02,393 INFO  [HomeInterface] 3.2744480057485696 
+2017-12-08 15:19:02,393 INFO  [HomeInterface] Height of water absorbed in channeling point 
+2017-12-08 15:19:02,393 INFO  [HomeInterface] 0.004567550053179614 
+2017-12-08 15:19:02,393 INFO  [HomeInterface] Height of water evaporated in channeling point 
+2017-12-08 15:19:02,393 INFO  [HomeInterface] 0.005705310098022451 
+2017-12-08 15:19:02,393 INFO  [HomeInterface] Temperature of water in channeling point 
+2017-12-08 15:19:02,393 INFO  [HomeInterface] 9.90501523818075 
+2017-12-08 15:19:03,393 INFO  [HomeInterface] Temperature of surface water 
+2017-12-08 15:19:03,393 INFO  [HomeInterface] 9.915199188144273 
+2017-12-08 15:19:03,393 INFO  [HomeInterface] Height of surface water evaporated  
+2017-12-08 15:19:03,393 INFO  [HomeInterface] 0.007176979862896453 
+2017-12-08 15:19:03,393 INFO  [HomeInterface] Height of surface water absorbed 
+2017-12-08 15:19:03,393 INFO  [HomeInterface] 1.6195528293835586 
+2017-12-08 15:19:03,393 INFO  [HomeInterface] Height of surface rain water 
+2017-12-08 15:19:03,393 INFO  [HomeInterface] 4.373270190753546 
+2017-12-08 15:19:03,393 INFO  [HomeInterface] Temperature of surface water 
+2017-12-08 15:19:03,393 INFO  [HomeInterface] 9.900216101767157 
+2017-12-08 15:19:03,393 INFO  [HomeInterface] Height of surface water evaporated  
+2017-12-08 15:19:03,393 INFO  [HomeInterface] 0.0065729288199999495 
+2017-12-08 15:19:03,393 INFO  [HomeInterface] Height of surface water absorbed 
+2017-12-08 15:19:03,393 INFO  [HomeInterface] 2.00602393469313 
+2017-12-08 15:19:03,393 INFO  [HomeInterface] Height of surface rain water 
+2017-12-08 15:19:03,393 INFO  [HomeInterface] 3.9874031364868694 
+2017-12-08 15:19:03,393 INFO  [HomeInterface] Height of water in channeling point 
+2017-12-08 15:19:03,394 INFO  [HomeInterface] 4.159736253722334 
+2017-12-08 15:19:03,394 INFO  [HomeInterface] Height of water absorbed in channeling point 
+2017-12-08 15:19:03,394 INFO  [HomeInterface] 0.005705310098022451 
+2017-12-08 15:19:03,394 INFO  [HomeInterface] Height of water evaporated in channeling point 
+2017-12-08 15:19:03,394 INFO  [HomeInterface] 0.006842705672002829 
+2017-12-08 15:19:03,394 INFO  [HomeInterface] Temperature of water in channeling point 
+2017-12-08 15:19:03,394 INFO  [HomeInterface] 9.906907738051274 
+2017-12-08 15:19:04,393 INFO  [HomeInterface] Temperature of surface water 
+2017-12-08 15:19:04,393 INFO  [HomeInterface] 9.916035930318506 
+2017-12-08 15:19:04,393 INFO  [HomeInterface] Height of surface water evaporated  
+2017-12-08 15:19:04,393 INFO  [HomeInterface] 0.008370077979137127 
+2017-12-08 15:19:04,393 INFO  [HomeInterface] Height of surface water absorbed 
+2017-12-08 15:19:04,393 INFO  [HomeInterface] 1.6949333678384688 
+2017-12-08 15:19:04,393 INFO  [HomeInterface] Height of surface rain water 
+2017-12-08 15:19:04,393 INFO  [HomeInterface] 5.296696554182395 
+2017-12-08 15:19:04,393 INFO  [HomeInterface] Temperature of surface water 
+2017-12-08 15:19:04,393 INFO  [HomeInterface] 9.901923134804996 
+2017-12-08 15:19:04,393 INFO  [HomeInterface] Height of surface water evaporated  
+2017-12-08 15:19:04,393 INFO  [HomeInterface] 0.007664951148696948 
+2017-12-08 15:19:04,393 INFO  [HomeInterface] Height of surface water absorbed 
+2017-12-08 15:19:04,393 INFO  [HomeInterface] 2.127936624975307 
+2017-12-08 15:19:04,393 INFO  [HomeInterface] Height of surface rain water 
+2017-12-08 15:19:04,393 INFO  [HomeInterface] 4.864398423875995 
+2017-12-08 15:19:04,393 INFO  [HomeInterface] Height of water in channeling point 
+2017-12-08 15:19:04,393 INFO  [HomeInterface] 5.057468248176875 
+2017-12-08 15:19:04,393 INFO  [HomeInterface] Height of water absorbed in channeling point 
+2017-12-08 15:19:04,393 INFO  [HomeInterface] 0.006842705672002829 
+2017-12-08 15:19:04,394 INFO  [HomeInterface] Height of water evaporated in channeling point 
+2017-12-08 15:19:04,394 INFO  [HomeInterface] 0.007979869728535427 
+2017-12-08 15:19:04,394 INFO  [HomeInterface] Temperature of water in channeling point 
+2017-12-08 15:19:04,394 INFO  [HomeInterface] 9.908226088158637 
+2017-12-08 15:19:05,393 INFO  [HomeInterface] Temperature of surface water 
+2017-12-08 15:19:05,393 INFO  [HomeInterface] 9.916658280562528 
+2017-12-08 15:19:05,393 INFO  [HomeInterface] Height of surface water evaporated  
+2017-12-08 15:19:05,393 INFO  [HomeInterface] 0.00956301503438935 
+2017-12-08 15:19:05,393 INFO  [HomeInterface] Height of surface water absorbed 
+2017-12-08 15:19:05,393 INFO  [HomeInterface] 1.7628654653663784 
+2017-12-08 15:19:05,393 INFO  [HomeInterface] Height of surface rain water 
+2017-12-08 15:19:05,393 INFO  [HomeInterface] 6.227571519599233 
+2017-12-08 15:19:05,393 INFO  [HomeInterface] Temperature of surface water 
+2017-12-08 15:19:05,393 INFO  [HomeInterface] 9.903171770134534 
+2017-12-08 15:19:05,393 INFO  [HomeInterface] Height of surface water evaporated  
+2017-12-08 15:19:05,393 INFO  [HomeInterface] 0.008756815873533327 
+2017-12-08 15:19:05,393 INFO  [HomeInterface] Height of surface water absorbed 
+2017-12-08 15:19:05,393 INFO  [HomeInterface] 2.238159732853664 
+2017-12-08 15:19:05,393 INFO  [HomeInterface] Height of surface rain water 
+2017-12-08 15:19:05,393 INFO  [HomeInterface] 5.7530834512728015 
+2017-12-08 15:19:05,393 INFO  [HomeInterface] Height of water in channeling point 
+2017-12-08 15:19:05,393 INFO  [HomeInterface] 5.96499583664379 
+2017-12-08 15:19:05,393 INFO  [HomeInterface] Height of water absorbed in channeling point 
+2017-12-08 15:19:05,393 INFO  [HomeInterface] 0.007979869728535427 
+2017-12-08 15:19:05,393 INFO  [HomeInterface] Height of water evaporated in channeling point 
+2017-12-08 15:19:05,393 INFO  [HomeInterface] 0.009116874637210299 
+2017-12-08 15:19:05,393 INFO  [HomeInterface] Temperature of water in channeling point 
+2017-12-08 15:19:05,393 INFO  [HomeInterface] 9.909195016630926 
+2017-12-08 15:19:06,393 INFO  [HomeInterface] Temperature of surface water 
+2017-12-08 15:19:06,393 INFO  [HomeInterface] 9.917138830266762 
+2017-12-08 15:19:06,393 INFO  [HomeInterface] Height of surface water evaporated  
+2017-12-08 15:19:06,393 INFO  [HomeInterface] 0.010755833970639849 
+2017-12-08 15:19:06,393 INFO  [HomeInterface] Height of surface water absorbed 
+2017-12-08 15:19:06,393 INFO  [HomeInterface] 1.824757732623506 
+2017-12-08 15:19:06,393 INFO  [HomeInterface] Height of surface rain water 
+2017-12-08 15:19:06,393 INFO  [HomeInterface] 7.164486433405855 
+2017-12-08 15:19:06,394 INFO  [HomeInterface] Temperature of surface water 
+2017-12-08 15:19:06,394 INFO  [HomeInterface] 9.90412297696273 
+2017-12-08 15:19:06,394 INFO  [HomeInterface] Height of surface water evaporated  
+2017-12-08 15:19:06,394 INFO  [HomeInterface] 0.00984856688785331 
+2017-12-08 15:19:06,394 INFO  [HomeInterface] Height of surface water absorbed 
+2017-12-08 15:19:06,394 INFO  [HomeInterface] 2.3389133598279566 
+2017-12-08 15:19:06,394 INFO  [HomeInterface] Height of surface rain water 
+2017-12-08 15:19:06,394 INFO  [HomeInterface] 6.651238073284189 
+2017-12-08 15:19:06,394 INFO  [HomeInterface] Height of water in channeling point 
+2017-12-08 15:19:06,394 INFO  [HomeInterface] 6.880461296251105 
+2017-12-08 15:19:06,394 INFO  [HomeInterface] Height of water absorbed in channeling point 
+2017-12-08 15:19:06,394 INFO  [HomeInterface] 0.009116874637210299 
+2017-12-08 15:19:06,394 INFO  [HomeInterface] Height of water evaporated in channeling point 
+2017-12-08 15:19:06,394 INFO  [HomeInterface] 0.01025376386648335 
+2017-12-08 15:19:06,394 INFO  [HomeInterface] Temperature of water in channeling point 
+2017-12-08 15:19:06,394 INFO  [HomeInterface] 9.909936022022062 
+2017-12-08 15:19:07,393 INFO  [HomeInterface] Temperature of surface water 
+2017-12-08 15:19:07,393 INFO  [HomeInterface] 9.917520813654697 
+2017-12-08 15:19:07,393 INFO  [HomeInterface] Height of surface water evaporated  
+2017-12-08 15:19:07,393 INFO  [HomeInterface] 0.011948562751179176 
+2017-12-08 15:19:07,393 INFO  [HomeInterface] Height of surface water absorbed 
+2017-12-08 15:19:07,393 INFO  [HomeInterface] 1.881644648352485 
+2017-12-08 15:19:07,393 INFO  [HomeInterface] Height of surface rain water 
+2017-12-08 15:19:07,393 INFO  [HomeInterface] 8.106406788896336 
+2017-12-08 15:19:07,393 INFO  [HomeInterface] Temperature of surface water 
+2017-12-08 15:19:07,393 INFO  [HomeInterface] 9.904870664092293 
+2017-12-08 15:19:07,393 INFO  [HomeInterface] Height of surface water evaporated  
+2017-12-08 15:19:07,393 INFO  [HomeInterface] 0.010940232277168466 
+2017-12-08 15:19:07,393 INFO  [HomeInterface] Height of surface water absorbed 
+2017-12-08 15:19:07,393 INFO  [HomeInterface] 2.431818353432421 
+2017-12-08 15:19:07,393 INFO  [HomeInterface] Height of surface rain water 
+2017-12-08 15:19:07,393 INFO  [HomeInterface] 7.557241414290409 
+2017-12-08 15:19:07,393 INFO  [HomeInterface] Height of water in channeling point 
+2017-12-08 15:19:07,393 INFO  [HomeInterface] 7.802505631168109 
+2017-12-08 15:19:07,393 INFO  [HomeInterface] Height of water absorbed in channeling point 
+2017-12-08 15:19:07,393 INFO  [HomeInterface] 0.01025376386648335 
+2017-12-08 15:19:07,394 INFO  [HomeInterface] Height of water evaporated in channeling point 
+2017-12-08 15:19:07,394 INFO  [HomeInterface] 0.011390565447280693 
+2017-12-08 15:19:07,394 INFO  [HomeInterface] Temperature of water in channeling point 
+2017-12-08 15:19:07,394 INFO  [HomeInterface] 9.91052038122538 
