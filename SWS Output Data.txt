@@ -1,32 +1,46 @@
 SWS Data
 Run time: 1 hr 0 min 
-Rain Amount: 10cm
-Rain Temperature 77.0 C
+Rain Amount: 20cm
+Rain Temperature 40.0 C
  
+Surface name: 44
+Initial temperature: 2.0 C
+Final temperature: 38.87508324192456 C
+Water remaining on surface: 16.728990026470008cm
+Water absorbed: 3.0252987811943703cm
+Water evaporated: 0.2457111923356356cm
+
 Surface name: Roof
-Initial temperature: 100.0 C
-Final temperature: 78.32512473457014 C
-Water remaining on surface: 7.479719812788621cm
-Water absorbed: 1.45090526718804cm
-Water evaporated: 1.0693749200233438cm
+Initial temperature: 10.0 C
+Final temperature: 39.11377373228599 C
+Water remaining on surface: 17.51191021739317cm
+Water absorbed: 2.1930289194530355cm
+Water evaporated: 0.2950608631538084cm
+
+Surface name: Grass
+Initial temperature: 10.0 C
+Final temperature: 39.10940068890774 C
+Water remaining on surface: 15.207978757948457cm
+Water absorbed: 4.4970048887569725cm
+Water evaporated: 0.295016353294581cm
 
 Surface name: Parking Lot
-Initial temperature: 130.0 C
-Final temperature: 80.06020685577239 C
-Water remaining on surface: 6.871164424097688cm
-Water absorbed: 1.8698536966269168cm
-Water evaporated: 1.2589818792754033cm
+Initial temperature: 12.0 C
+Final temperature: 39.171075342541336 C
+Water remaining on surface: 16.701259252621576cm
+Water absorbed: 2.9913748275576597cm
+Water evaporated: 0.30736591982077566cm
 
-Surface name: Playground
-Initial temperature: 88.0 C
-Final temperature: 77.63689776261226 C
-Water remaining on surface: 6.178233929856498cm
-Water absorbed: 2.8282494508023936cm
-Water evaporated: 0.9935166193411195cm
+Surface name: Grass2
+Initial temperature: 10.0 C
+Final temperature: 39.10940068890774 C
+Water remaining on surface: 15.207978757948457cm
+Water absorbed: 4.4970048887569725cm
+Water evaporated: 0.295016353294581cm
 
 Channeling Point: 
 Initial temperature: 0.0 C
-Final temperature: 79.11681463444008 C
-Water remaining: 6.764021845536908cm
-Water absorbed: 2.0802731752886703cm
-Water evaporated: 1.15570497917443cm
+Final temperature: 39.07604227887236 C
+Water remaining: 16.09061739459852cm
+Water absorbed: 3.6216281286256815cm
+Water evaporated: 0.28775447677580857cm

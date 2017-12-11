@@ -60,7 +60,6 @@ public class HomeInterface extends javax.swing.JFrame {
         lbl_point_temp = new javax.swing.JLabel();
         lbl_point_height = new javax.swing.JLabel();
         graph_pannel = new LeftShowGraphic();
-        btn_show = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -273,44 +272,30 @@ public class HomeInterface extends javax.swing.JFrame {
         );
         draw_panelLayout.setVerticalGroup(
             draw_panelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, draw_panelLayout.createSequentialGroup()
+            .addGroup(draw_panelLayout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jLabel14, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, draw_panelLayout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(lbl_point_temp)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(lbl_point_height)
-                .addContainerGap())
+                .addGroup(draw_panelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel14, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, draw_panelLayout.createSequentialGroup()
+                        .addComponent(lbl_point_temp)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(lbl_point_height)
+                        .addContainerGap())))
         );
 
         graph_pannel.setBackground(new java.awt.Color(255, 255, 255));
         graph_pannel.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         graph_pannel.setAutoscrolls(true);
 
-        btn_show.setBackground(new java.awt.Color(102, 255, 0));
-        btn_show.setText("Show");
-        btn_show.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn_showActionPerformed(evt);
-            }
-        });
-
         javax.swing.GroupLayout graph_pannelLayout = new javax.swing.GroupLayout(graph_pannel);
         graph_pannel.setLayout(graph_pannelLayout);
         graph_pannelLayout.setHorizontalGroup(
             graph_pannelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, graph_pannelLayout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(btn_show)
-                .addContainerGap())
+            .addGap(0, 312, Short.MAX_VALUE)
         );
         graph_pannelLayout.setVerticalGroup(
             graph_pannelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(graph_pannelLayout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(btn_show)
-                .addContainerGap(379, Short.MAX_VALUE))
+            .addGap(0, 413, Short.MAX_VALUE)
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -592,10 +577,6 @@ public class HomeInterface extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_btn_resumeActionPerformed
 
-    private void btn_showActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_showActionPerformed
-
-    }//GEN-LAST:event_btn_showActionPerformed
-
     private void draw_panelMousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_draw_panelMousePressed
         DataSingleton.getInstance().start_x = evt.getX();
         DataSingleton.getInstance().start_y = evt.getY();
@@ -713,7 +694,6 @@ public class HomeInterface extends javax.swing.JFrame {
     public javax.swing.JButton btn_pause;
     private javax.swing.JButton btn_resume;
     public javax.swing.JButton btn_roof;
-    public javax.swing.JButton btn_show;
     public javax.swing.JButton btn_start;
     public javax.swing.JPanel draw_panel;
     public javax.swing.JPanel graph_pannel;

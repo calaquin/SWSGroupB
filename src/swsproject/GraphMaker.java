@@ -15,34 +15,36 @@ public class GraphMaker extends HomeInterface{
     static TimeSeries ts = new TimeSeries("Second", Second.class);
     int thisSurface;
     int graphMinutes;
+    TimeSeriesCollection dataset;
+    gen graphGenerator;    
+    JFrame frame;
+    JFreeChart chart;
+    String graphName;
+    ValueAxis axis;
+    ChartPanel label;
+    double temp;
     
-    public void updateMinutes(int mins)
-    {
-        this.graphMinutes = mins;
-    }
     public void MakeGraph(int surface){        
         this.thisSurface = surface;
         this.graphMinutes = DataSingleton.getInstance().home_interface.remained_time;        
-        gen myGen = new gen();
-        new Thread(myGen).start();
-        String graphName = DataSingleton.getInstance().surface_list.get(surface).name;
-        TimeSeriesCollection dataset = new TimeSeriesCollection(ts);
-        JFreeChart chart = ChartFactory.createTimeSeriesChart(
+        this.graphGenerator = new gen();
+        new Thread(graphGenerator).start();
+        this.graphName = DataSingleton.getInstance().surface_list.get(surface).name;
+        this.dataset = new TimeSeriesCollection(ts);
+        this.chart = ChartFactory.createTimeSeriesChart(
             graphName,
             "Time",
             "Temperature",
-            dataset,
+            this.dataset,
             true,
             true,
             false
         );
         final XYPlot plot = chart.getXYPlot();
-        ValueAxis axis = plot.getDomainAxis();
+        this.axis = plot.getDomainAxis();
         axis.setAutoRange(true);
-        //axis.setFixedAutoRange(9000.0);
-
-        JFrame frame = new JFrame(DataSingleton.getInstance().surface_list.get(surface).name);
-        ChartPanel label = new ChartPanel(chart);
+        this.frame = new JFrame(DataSingleton.getInstance().surface_list.get(surface).name);
+        this.label = new ChartPanel(chart);
         frame.getContentPane().add(label);        
 
         frame.pack();
@@ -50,12 +52,12 @@ public class GraphMaker extends HomeInterface{
     }
 
     public class gen implements Runnable {  
+
         //@Override
         public void run() {            
             while(graphMinutes > 0) {   
                 graphMinutes = DataSingleton.getInstance().home_interface.remained_time;
                 double temp = DataSingleton.getInstance().surface_list.get(thisSurface).temp_water;  
-                //System.out.println("This Surface: " + DataSingleton.getInstance().surface_list.get(thisSurface).name + " " + temp);
                 ts.addOrUpdate(new Second(), temp);
                 try {
                     Thread.sleep(120);
