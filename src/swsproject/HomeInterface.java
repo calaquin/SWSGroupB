@@ -6,10 +6,12 @@ import java.awt.*;
 import static java.awt.SystemColor.text;
 import java.io.FileOutputStream;
 import java.io.PrintStream;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Timer;
 import java.util.TimerTask;
 import org.apache.log4j.Logger;
+import java.util.Date;
 
 import org.apache.log4j.xml.DOMConfigurator;
 import static swsproject.SetSurface.newGraph;
@@ -409,8 +411,11 @@ public class HomeInterface extends javax.swing.JFrame {
          @Override
         public void run() {
              if (remained_time == 0) {
-                    try (PrintStream out = new PrintStream(new FileOutputStream("SWS Output Data.txt"))) {
+                    // Output Simulation Data
+                    String simDate = new SimpleDateFormat("yyyy.MM.dd.HH.mm").format(new Date());
+                    try (PrintStream out = new PrintStream(new FileOutputStream("SWS Output Data " + simDate + ".txt"))) {
                             out.println("SWS Data");
+                            out.println("Simulation date: " + simDate);
                             out.println("Run time: " + sp_hours.getValue() + " hr " + sp_mins.getValue() + " min ");
                             out.println("Rain Amount: " + starting_rain_amount + "cm");
                             out.println("Rain Temperature " + t_rain + " C");

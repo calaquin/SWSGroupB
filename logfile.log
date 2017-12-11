@@ -15046,3 +15046,528 @@
 2017-12-10 22:19:37,970 INFO  [HomeInterface] 0.28775447677580857 
 2017-12-10 22:19:37,970 INFO  [HomeInterface] Temperature of water in channeling point 
 2017-12-10 22:19:37,970 INFO  [HomeInterface] 39.07604227887236 
+2017-12-10 22:27:29,769 INFO  [SWSProject] The User Interface appears 
+2017-12-10 22:27:30,728 INFO  [HomeInterface] The user selects the asphalt surface 
+2017-12-10 22:27:30,728 INFO  [HomeInterface] 1 
+2017-12-10 22:27:30,729 INFO  [HomeInterface] The user starts drawing the surface 
+2017-12-10 22:27:32,576 INFO  [SetSurface] The user enters the surface name and suface temperature 
+2017-12-10 22:27:32,576 INFO  [SetSurface] 3 
+2017-12-10 22:27:32,576 INFO  [SetSurface] 3.0 
+2017-12-10 22:27:35,385 INFO  [HomeInterface] User enters the rain amount, rain temperature and simulation time 
+2017-12-10 22:27:35,385 INFO  [HomeInterface] User Input Rain Amount: 30 
+2017-12-10 22:27:35,385 INFO  [HomeInterface] 10 
+2017-12-10 22:27:35,385 INFO  [HomeInterface] 30.0 
+2017-12-10 22:27:35,386 INFO  [HomeInterface] Jfreechart is loaded and graphs start to display 
+2017-12-10 22:27:35,387 INFO  [HomeInterface] Simulation starts 
+2017-12-10 22:27:35,391 INFO  [HomeInterface] Temperature of surface water 
+2017-12-10 22:27:35,391 INFO  [HomeInterface] 3.0 
+2017-12-10 22:27:35,392 INFO  [HomeInterface] Height of surface water evaporated  
+2017-12-10 22:27:35,392 INFO  [HomeInterface] 0.0033 
+2017-12-10 22:27:35,392 INFO  [HomeInterface] Height of surface water absorbed 
+2017-12-10 22:27:35,392 INFO  [HomeInterface] 2.9966999999999997 
+2017-12-10 22:27:35,392 INFO  [HomeInterface] Height of surface rain water 
+2017-12-10 22:27:35,392 INFO  [HomeInterface] 0.0 
+2017-12-10 22:27:35,392 INFO  [HomeInterface] Height of water in channeling point 
+2017-12-10 22:27:35,392 INFO  [HomeInterface] 0.0 
+2017-12-10 22:27:35,392 INFO  [HomeInterface] Height of water absorbed in channeling point 
+2017-12-10 22:27:35,392 INFO  [HomeInterface] 0.0 
+2017-12-10 22:27:35,392 INFO  [HomeInterface] Height of water evaporated in channeling point 
+2017-12-10 22:27:35,392 INFO  [HomeInterface] 0.0033 
+2017-12-10 22:27:35,392 INFO  [HomeInterface] Temperature of water in channeling point 
+2017-12-10 22:27:35,392 INFO  [HomeInterface] 3.0 
+2017-12-10 22:27:35,592 INFO  [HomeInterface] 3 graph generated 
+2017-12-10 22:27:36,392 INFO  [HomeInterface] Temperature of surface water 
+2017-12-10 22:27:36,392 INFO  [HomeInterface] 29.904904049707934 
+2017-12-10 22:27:36,392 INFO  [HomeInterface] Height of surface water evaporated  
+2017-12-10 22:27:36,392 INFO  [HomeInterface] 0.0066 
+2017-12-10 22:27:36,392 INFO  [HomeInterface] Height of surface water absorbed 
+2017-12-10 22:27:36,392 INFO  [HomeInterface] 3.164162375571643 
+2017-12-10 22:27:36,392 INFO  [HomeInterface] Height of surface rain water 
+2017-12-10 22:27:36,392 INFO  [HomeInterface] 2.8292376244283566 
+2017-12-10 22:27:36,392 INFO  [HomeInterface] Height of water in channeling point 
+2017-12-10 22:27:36,392 INFO  [HomeInterface] 2.8292376244283566 
+2017-12-10 22:27:36,392 INFO  [HomeInterface] Height of water absorbed in channeling point 
+2017-12-10 22:27:36,392 INFO  [HomeInterface] 0.0033 
+2017-12-10 22:27:36,392 INFO  [HomeInterface] Height of water evaporated in channeling point 
+2017-12-10 22:27:36,392 INFO  [HomeInterface] 0.0066 
+2017-12-10 22:27:36,392 INFO  [HomeInterface] Temperature of water in channeling point 
+2017-12-10 22:27:36,392 INFO  [HomeInterface] 29.904904049707937 
+2017-12-10 22:27:37,393 INFO  [HomeInterface] Temperature of surface water 
+2017-12-10 22:27:37,393 INFO  [HomeInterface] 29.90645901980568 
+2017-12-10 22:27:37,393 INFO  [HomeInterface] Height of surface water evaporated  
+2017-12-10 22:27:37,393 INFO  [HomeInterface] 0.009895384490085469 
+2017-12-10 22:27:37,393 INFO  [HomeInterface] Height of surface water absorbed 
+2017-12-10 22:27:37,393 INFO  [HomeInterface] 3.3119451249263654 
+2017-12-10 22:27:37,393 INFO  [HomeInterface] Height of surface rain water 
+2017-12-10 22:27:37,393 INFO  [HomeInterface] 5.678159490583549 
+2017-12-10 22:27:37,393 INFO  [HomeInterface] Height of water in channeling point 
+2017-12-10 22:27:37,393 INFO  [HomeInterface] 5.67815949058355 
+2017-12-10 22:27:37,393 INFO  [HomeInterface] Height of water absorbed in channeling point 
+2017-12-10 22:27:37,393 INFO  [HomeInterface] 0.0066 
+2017-12-10 22:27:37,393 INFO  [HomeInterface] Height of water evaporated in channeling point 
+2017-12-10 22:27:37,393 INFO  [HomeInterface] 0.009895384490085469 
+2017-12-10 22:27:37,393 INFO  [HomeInterface] Temperature of water in channeling point 
+2017-12-10 22:27:37,393 INFO  [HomeInterface] 29.906459019805684 
+2017-12-10 22:27:38,393 INFO  [HomeInterface] Temperature of surface water 
+2017-12-10 22:27:38,393 INFO  [HomeInterface] 29.907296980907248 
+2017-12-10 22:27:38,393 INFO  [HomeInterface] Height of surface water evaporated  
+2017-12-10 22:27:38,393 INFO  [HomeInterface] 0.013189264060920447 
+2017-12-10 22:27:38,393 INFO  [HomeInterface] Height of surface water absorbed 
+2017-12-10 22:27:38,393 INFO  [HomeInterface] 3.4444665952092715 
+2017-12-10 22:27:38,393 INFO  [HomeInterface] Height of surface rain water 
+2017-12-10 22:27:38,393 INFO  [HomeInterface] 8.542344140729808 
+2017-12-10 22:27:38,393 INFO  [HomeInterface] Height of water in channeling point 
+2017-12-10 22:27:38,393 INFO  [HomeInterface] 8.542344140729808 
+2017-12-10 22:27:38,393 INFO  [HomeInterface] Height of water absorbed in channeling point 
+2017-12-10 22:27:38,393 INFO  [HomeInterface] 0.009895384490085469 
+2017-12-10 22:27:38,393 INFO  [HomeInterface] Height of water evaporated in channeling point 
+2017-12-10 22:27:38,394 INFO  [HomeInterface] 0.013189264060920445 
+2017-12-10 22:27:38,394 INFO  [HomeInterface] Temperature of water in channeling point 
+2017-12-10 22:27:38,394 INFO  [HomeInterface] 29.907296980907248 
+2017-12-10 22:27:39,393 INFO  [HomeInterface] Temperature of surface water 
+2017-12-10 22:27:39,393 INFO  [HomeInterface] 29.907827061973716 
+2017-12-10 22:27:39,393 INFO  [HomeInterface] Height of surface water evaporated  
+2017-12-10 22:27:39,393 INFO  [HomeInterface] 0.016482403226740494 
+2017-12-10 22:27:39,393 INFO  [HomeInterface] Height of surface water absorbed 
+2017-12-10 22:27:39,393 INFO  [HomeInterface] 3.5647660072935605 
+2017-12-10 22:27:39,393 INFO  [HomeInterface] Height of surface rain water 
+2017-12-10 22:27:39,393 INFO  [HomeInterface] 11.4187515894797 
+2017-12-10 22:27:39,393 INFO  [HomeInterface] Height of water in channeling point 
+2017-12-10 22:27:39,393 INFO  [HomeInterface] 11.4187515894797 
+2017-12-10 22:27:39,393 INFO  [HomeInterface] Height of water absorbed in channeling point 
+2017-12-10 22:27:39,393 INFO  [HomeInterface] 0.013189264060920445 
+2017-12-10 22:27:39,393 INFO  [HomeInterface] Height of water evaporated in channeling point 
+2017-12-10 22:27:39,393 INFO  [HomeInterface] 0.016482403226740494 
+2017-12-10 22:27:39,393 INFO  [HomeInterface] Temperature of water in channeling point 
+2017-12-10 22:27:39,393 INFO  [HomeInterface] 29.907827061973713 
+2017-12-10 22:27:40,393 INFO  [HomeInterface] Temperature of surface water 
+2017-12-10 22:27:40,393 INFO  [HomeInterface] 29.90819469491722 
+2017-12-10 22:27:40,393 INFO  [HomeInterface] Height of surface water evaporated  
+2017-12-10 22:27:40,393 INFO  [HomeInterface] 0.019775103705169137 
+2017-12-10 22:27:40,393 INFO  [HomeInterface] Height of surface water absorbed 
+2017-12-10 22:27:40,393 INFO  [HomeInterface] 3.6750325249133042 
+2017-12-10 22:27:40,393 INFO  [HomeInterface] Height of surface rain water 
+2017-12-10 22:27:40,393 INFO  [HomeInterface] 14.305192371381528 
+2017-12-10 22:27:40,393 INFO  [HomeInterface] Height of water in channeling point 
+2017-12-10 22:27:40,393 INFO  [HomeInterface] 14.30519237138153 
+2017-12-10 22:27:40,393 INFO  [HomeInterface] Height of water absorbed in channeling point 
+2017-12-10 22:27:40,393 INFO  [HomeInterface] 0.016482403226740494 
+2017-12-10 22:27:40,393 INFO  [HomeInterface] Height of water evaporated in channeling point 
+2017-12-10 22:27:40,394 INFO  [HomeInterface] 0.019775103705169137 
+2017-12-10 22:27:40,394 INFO  [HomeInterface] Temperature of water in channeling point 
+2017-12-10 22:27:40,394 INFO  [HomeInterface] 29.90819469491722 
+2017-12-10 22:27:41,393 INFO  [HomeInterface] Temperature of surface water 
+2017-12-10 22:27:41,393 INFO  [HomeInterface] 29.90846548597283 
+2017-12-10 22:27:41,393 INFO  [HomeInterface] Height of surface water evaporated  
+2017-12-10 22:27:41,393 INFO  [HomeInterface] 0.02306751469649626 
+2017-12-10 22:27:41,393 INFO  [HomeInterface] Height of surface water absorbed 
+2017-12-10 22:27:41,393 INFO  [HomeInterface] 3.7769001844985217 
+2017-12-10 22:27:41,393 INFO  [HomeInterface] Height of surface rain water 
+2017-12-10 22:27:41,393 INFO  [HomeInterface] 17.200032300804985 
+2017-12-10 22:27:41,393 INFO  [HomeInterface] Height of water in channeling point 
+2017-12-10 22:27:41,393 INFO  [HomeInterface] 17.20003230080498 
+2017-12-10 22:27:41,393 INFO  [HomeInterface] Height of water absorbed in channeling point 
+2017-12-10 22:27:41,393 INFO  [HomeInterface] 0.019775103705169137 
+2017-12-10 22:27:41,393 INFO  [HomeInterface] Height of water evaporated in channeling point 
+2017-12-10 22:27:41,393 INFO  [HomeInterface] 0.02306751469649626 
+2017-12-10 22:27:41,393 INFO  [HomeInterface] Temperature of water in channeling point 
+2017-12-10 22:27:41,393 INFO  [HomeInterface] 29.90846548597283 
+2017-12-10 22:27:42,394 INFO  [HomeInterface] Temperature of surface water 
+2017-12-10 22:27:42,394 INFO  [HomeInterface] 29.908673642078234 
+2017-12-10 22:27:42,394 INFO  [HomeInterface] Height of surface water evaporated  
+2017-12-10 22:27:42,394 INFO  [HomeInterface] 0.026359720666395414 
+2017-12-10 22:27:42,394 INFO  [HomeInterface] Height of surface water absorbed 
+2017-12-10 22:27:42,394 INFO  [HomeInterface] 3.8716238181775324 
+2017-12-10 22:27:42,394 INFO  [HomeInterface] Height of surface rain water 
+2017-12-10 22:27:42,394 INFO  [HomeInterface] 20.102016461156072 
+2017-12-10 22:27:42,394 INFO  [HomeInterface] Height of water in channeling point 
+2017-12-10 22:27:42,394 INFO  [HomeInterface] 20.102016461156072 
+2017-12-10 22:27:42,394 INFO  [HomeInterface] Height of water absorbed in channeling point 
+2017-12-10 22:27:42,394 INFO  [HomeInterface] 0.02306751469649626 
+2017-12-10 22:27:42,394 INFO  [HomeInterface] Height of water evaporated in channeling point 
+2017-12-10 22:27:42,394 INFO  [HomeInterface] 0.026359720666395414 
+2017-12-10 22:27:42,394 INFO  [HomeInterface] Temperature of water in channeling point 
+2017-12-10 22:27:42,394 INFO  [HomeInterface] 29.908673642078238 
+2017-12-10 22:27:43,396 INFO  [HomeInterface] Temperature of surface water 
+2017-12-10 22:27:43,396 INFO  [HomeInterface] 29.908838842733918 
+2017-12-10 22:27:43,396 INFO  [HomeInterface] Height of surface water evaporated  
+2017-12-10 22:27:43,396 INFO  [HomeInterface] 0.029651773983674592 
+2017-12-10 22:27:43,396 INFO  [HomeInterface] Height of surface water absorbed 
+2017-12-10 22:27:43,396 INFO  [HomeInterface] 3.960189705049393 
+2017-12-10 22:27:43,396 INFO  [HomeInterface] Height of surface rain water 
+2017-12-10 22:27:43,397 INFO  [HomeInterface] 23.010158520966932 
+2017-12-10 22:27:43,397 INFO  [HomeInterface] Height of water in channeling point 
+2017-12-10 22:27:43,397 INFO  [HomeInterface] 23.01015852096693 
+2017-12-10 22:27:43,397 INFO  [HomeInterface] Height of water absorbed in channeling point 
+2017-12-10 22:27:43,397 INFO  [HomeInterface] 0.026359720666395414 
+2017-12-10 22:27:43,397 INFO  [HomeInterface] Height of water evaporated in channeling point 
+2017-12-10 22:27:43,397 INFO  [HomeInterface] 0.029651773983674592 
+2017-12-10 22:27:43,397 INFO  [HomeInterface] Temperature of water in channeling point 
+2017-12-10 22:27:43,397 INFO  [HomeInterface] 29.908838842733918 
+2017-12-10 22:27:44,406 INFO  [HomeInterface] Temperature of surface water 
+2017-12-10 22:27:44,406 INFO  [HomeInterface] 29.908973250283022 
+2017-12-10 22:27:44,406 INFO  [HomeInterface] Height of surface water evaporated  
+2017-12-10 22:27:44,406 INFO  [HomeInterface] 0.032943709316640916 
+2017-12-10 22:27:44,406 INFO  [HomeInterface] Height of surface water absorbed 
+2017-12-10 22:27:44,406 INFO  [HomeInterface] 4.043388210101949 
+2017-12-10 22:27:44,406 INFO  [HomeInterface] Height of surface rain water 
+2017-12-10 22:27:44,406 INFO  [HomeInterface] 25.92366808058141 
+2017-12-10 22:27:44,407 INFO  [HomeInterface] Height of water in channeling point 
+2017-12-10 22:27:44,407 INFO  [HomeInterface] 25.923668080581415 
+2017-12-10 22:27:44,407 INFO  [HomeInterface] Height of water absorbed in channeling point 
+2017-12-10 22:27:44,407 INFO  [HomeInterface] 0.029651773983674592 
+2017-12-10 22:27:44,407 INFO  [HomeInterface] Height of water evaporated in channeling point 
+2017-12-10 22:27:44,407 INFO  [HomeInterface] 0.03294370931664091 
+2017-12-10 22:27:44,407 INFO  [HomeInterface] Temperature of water in channeling point 
+2017-12-10 22:27:44,407 INFO  [HomeInterface] 29.90897325028302 
+2017-12-10 22:30:34,890 INFO  [SWSProject] The User Interface appears 
+2017-12-10 22:30:35,844 INFO  [HomeInterface] The user selects the asphalt surface 
+2017-12-10 22:30:35,844 INFO  [HomeInterface] 1 
+2017-12-10 22:30:35,844 INFO  [HomeInterface] The user starts drawing the surface 
+2017-12-10 22:30:38,235 INFO  [SetSurface] The user enters the surface name and suface temperature 
+2017-12-10 22:30:38,235 INFO  [SetSurface] test 
+2017-12-10 22:30:38,235 INFO  [SetSurface] 22.0 
+2017-12-10 22:30:40,741 INFO  [HomeInterface] User enters the rain amount, rain temperature and simulation time 
+2017-12-10 22:30:40,742 INFO  [HomeInterface] User Input Rain Amount: 20 
+2017-12-10 22:30:40,742 INFO  [HomeInterface] 10 
+2017-12-10 22:30:40,742 INFO  [HomeInterface] 20.0 
+2017-12-10 22:30:40,743 INFO  [HomeInterface] Jfreechart is loaded and graphs start to display 
+2017-12-10 22:30:40,743 INFO  [HomeInterface] Simulation starts 
+2017-12-10 22:30:40,745 INFO  [HomeInterface] Temperature of surface water 
+2017-12-10 22:30:40,745 INFO  [HomeInterface] 22.0 
+2017-12-10 22:30:40,745 INFO  [HomeInterface] Height of surface water evaporated  
+2017-12-10 22:30:40,745 INFO  [HomeInterface] 0.004200000000000001 
+2017-12-10 22:30:40,745 INFO  [HomeInterface] Height of surface water absorbed 
+2017-12-10 22:30:40,745 INFO  [HomeInterface] 1.9958 
+2017-12-10 22:30:40,746 INFO  [HomeInterface] Height of surface rain water 
+2017-12-10 22:30:40,746 INFO  [HomeInterface] 0.0 
+2017-12-10 22:30:40,746 INFO  [HomeInterface] Height of water in channeling point 
+2017-12-10 22:30:40,746 INFO  [HomeInterface] 0.0 
+2017-12-10 22:30:40,746 INFO  [HomeInterface] Height of water absorbed in channeling point 
+2017-12-10 22:30:40,746 INFO  [HomeInterface] 0.0 
+2017-12-10 22:30:40,746 INFO  [HomeInterface] Height of water evaporated in channeling point 
+2017-12-10 22:30:40,746 INFO  [HomeInterface] 0.004200000000000001 
+2017-12-10 22:30:40,746 INFO  [HomeInterface] Temperature of water in channeling point 
+2017-12-10 22:30:40,746 INFO  [HomeInterface] 22.0 
+2017-12-10 22:30:40,942 INFO  [HomeInterface] test graph generated 
+2017-12-10 22:30:41,745 INFO  [HomeInterface] Temperature of surface water 
+2017-12-10 22:30:41,745 INFO  [HomeInterface] 20.01135146637584 
+2017-12-10 22:30:41,745 INFO  [HomeInterface] Height of surface water evaporated  
+2017-12-10 22:30:41,745 INFO  [HomeInterface] 0.008400000000000001 
+2017-12-10 22:30:41,745 INFO  [HomeInterface] Height of surface water absorbed 
+2017-12-10 22:30:41,745 INFO  [HomeInterface] 2.23971309148821 
+2017-12-10 22:30:41,745 INFO  [HomeInterface] Height of surface rain water 
+2017-12-10 22:30:41,745 INFO  [HomeInterface] 1.7518869085117896 
+2017-12-10 22:30:41,745 INFO  [HomeInterface] Height of water in channeling point 
+2017-12-10 22:30:41,745 INFO  [HomeInterface] 1.7518869085117896 
+2017-12-10 22:30:41,745 INFO  [HomeInterface] Height of water absorbed in channeling point 
+2017-12-10 22:30:41,745 INFO  [HomeInterface] 0.004200000000000001 
+2017-12-10 22:30:41,745 INFO  [HomeInterface] Height of water evaporated in channeling point 
+2017-12-10 22:30:41,745 INFO  [HomeInterface] 0.008400000000000001 
+2017-12-10 22:30:41,745 INFO  [HomeInterface] Temperature of water in channeling point 
+2017-12-10 22:30:41,745 INFO  [HomeInterface] 20.01135146637584 
+2017-12-10 22:30:42,746 INFO  [HomeInterface] Temperature of surface water 
+2017-12-10 22:30:42,746 INFO  [HomeInterface] 20.010905952894102 
+2017-12-10 22:30:42,746 INFO  [HomeInterface] Height of surface water evaporated  
+2017-12-10 22:30:42,746 INFO  [HomeInterface] 0.012600530039572653 
+2017-12-10 22:30:42,746 INFO  [HomeInterface] Height of surface water absorbed 
+2017-12-10 22:30:42,746 INFO  [HomeInterface] 2.438967106081659 
+2017-12-10 22:30:42,746 INFO  [HomeInterface] Height of surface rain water 
+2017-12-10 22:30:42,746 INFO  [HomeInterface] 3.548432363878768 
+2017-12-10 22:30:42,746 INFO  [HomeInterface] Height of water in channeling point 
+2017-12-10 22:30:42,746 INFO  [HomeInterface] 3.548432363878768 
+2017-12-10 22:30:42,746 INFO  [HomeInterface] Height of water absorbed in channeling point 
+2017-12-10 22:30:42,746 INFO  [HomeInterface] 0.008400000000000001 
+2017-12-10 22:30:42,746 INFO  [HomeInterface] Height of water evaporated in channeling point 
+2017-12-10 22:30:42,746 INFO  [HomeInterface] 0.012600530039572651 
+2017-12-10 22:30:42,746 INFO  [HomeInterface] Temperature of water in channeling point 
+2017-12-10 22:30:42,746 INFO  [HomeInterface] 20.010905952894106 
+2017-12-10 22:30:43,746 INFO  [HomeInterface] Temperature of surface water 
+2017-12-10 22:30:43,746 INFO  [HomeInterface] 20.010676080935095 
+2017-12-10 22:30:43,746 INFO  [HomeInterface] Height of surface water evaporated  
+2017-12-10 22:30:43,746 INFO  [HomeInterface] 0.01680122751651155 
+2017-12-10 22:30:43,746 INFO  [HomeInterface] Height of surface water absorbed 
+2017-12-10 22:30:43,746 INFO  [HomeInterface] 2.6085528009793535 
+2017-12-10 22:30:43,746 INFO  [HomeInterface] Height of surface rain water 
+2017-12-10 22:30:43,746 INFO  [HomeInterface] 5.374645971504134 
+2017-12-10 22:30:43,746 INFO  [HomeInterface] Height of water in channeling point 
+2017-12-10 22:30:43,746 INFO  [HomeInterface] 5.374645971504134 
+2017-12-10 22:30:43,746 INFO  [HomeInterface] Height of water absorbed in channeling point 
+2017-12-10 22:30:43,746 INFO  [HomeInterface] 0.012600530039572651 
+2017-12-10 22:30:43,746 INFO  [HomeInterface] Height of water evaporated in channeling point 
+2017-12-10 22:30:43,747 INFO  [HomeInterface] 0.01680122751651155 
+2017-12-10 22:30:43,747 INFO  [HomeInterface] Temperature of water in channeling point 
+2017-12-10 22:30:43,747 INFO  [HomeInterface] 20.010676080935095 
+2017-12-10 22:30:44,746 INFO  [HomeInterface] Temperature of surface water 
+2017-12-10 22:30:44,746 INFO  [HomeInterface] 20.01053536932694 
+2017-12-10 22:30:44,746 INFO  [HomeInterface] Height of surface water evaporated  
+2017-12-10 22:30:44,746 INFO  [HomeInterface] 0.021002005589867357 
+2017-12-10 22:30:44,746 INFO  [HomeInterface] Height of surface water absorbed 
+2017-12-10 22:30:44,746 INFO  [HomeInterface] 2.7567559356072358 
+2017-12-10 22:30:44,746 INFO  [HomeInterface] Height of surface rain water 
+2017-12-10 22:30:44,746 INFO  [HomeInterface] 7.222242058802896 
+2017-12-10 22:30:44,746 INFO  [HomeInterface] Height of water in channeling point 
+2017-12-10 22:30:44,746 INFO  [HomeInterface] 7.2222420588028955 
+2017-12-10 22:30:44,747 INFO  [HomeInterface] Height of water absorbed in channeling point 
+2017-12-10 22:30:44,747 INFO  [HomeInterface] 0.01680122751651155 
+2017-12-10 22:30:44,747 INFO  [HomeInterface] Height of water evaporated in channeling point 
+2017-12-10 22:30:44,747 INFO  [HomeInterface] 0.021002005589867354 
+2017-12-10 22:30:44,747 INFO  [HomeInterface] Temperature of water in channeling point 
+2017-12-10 22:30:44,747 INFO  [HomeInterface] 20.01053536932694 
+2017-12-10 22:30:45,746 INFO  [HomeInterface] Temperature of surface water 
+2017-12-10 22:30:45,746 INFO  [HomeInterface] 20.010440271829303 
+2017-12-10 22:30:45,746 INFO  [HomeInterface] Height of surface water evaporated  
+2017-12-10 22:30:45,746 INFO  [HomeInterface] 0.02520283064940248 
+2017-12-10 22:30:45,746 INFO  [HomeInterface] Height of surface water absorbed 
+2017-12-10 22:30:45,746 INFO  [HomeInterface] 2.8887072922676467 
+2017-12-10 22:30:45,746 INFO  [HomeInterface] Height of surface rain water 
+2017-12-10 22:30:45,746 INFO  [HomeInterface] 9.086089877082951 
+2017-12-10 22:30:45,746 INFO  [HomeInterface] Height of water in channeling point 
+2017-12-10 22:30:45,746 INFO  [HomeInterface] 9.086089877082951 
+2017-12-10 22:30:45,746 INFO  [HomeInterface] Height of water absorbed in channeling point 
+2017-12-10 22:30:45,746 INFO  [HomeInterface] 0.021002005589867354 
+2017-12-10 22:30:45,746 INFO  [HomeInterface] Height of water evaporated in channeling point 
+2017-12-10 22:30:45,746 INFO  [HomeInterface] 0.025202830649402475 
+2017-12-10 22:30:45,746 INFO  [HomeInterface] Temperature of water in channeling point 
+2017-12-10 22:30:45,746 INFO  [HomeInterface] 20.010440271829303 
+2017-12-10 22:30:46,747 INFO  [HomeInterface] Temperature of surface water 
+2017-12-10 22:30:46,747 INFO  [HomeInterface] 20.010371678036194 
+2017-12-10 22:30:46,747 INFO  [HomeInterface] Height of surface water evaporated  
+2017-12-10 22:30:46,747 INFO  [HomeInterface] 0.0294036863275472 
+2017-12-10 22:30:46,747 INFO  [HomeInterface] Height of surface water absorbed 
+2017-12-10 22:30:46,747 INFO  [HomeInterface] 3.007832186876077 
+2017-12-10 22:30:46,747 INFO  [HomeInterface] Height of surface rain water 
+2017-12-10 22:30:46,747 INFO  [HomeInterface] 10.962764126796378 
+2017-12-10 22:30:46,747 INFO  [HomeInterface] Height of water in channeling point 
+2017-12-10 22:30:46,747 INFO  [HomeInterface] 10.962764126796378 
+2017-12-10 22:30:46,747 INFO  [HomeInterface] Height of water absorbed in channeling point 
+2017-12-10 22:30:46,747 INFO  [HomeInterface] 0.025202830649402475 
+2017-12-10 22:30:46,747 INFO  [HomeInterface] Height of water evaporated in channeling point 
+2017-12-10 22:30:46,747 INFO  [HomeInterface] 0.029403686327547203 
+2017-12-10 22:30:46,747 INFO  [HomeInterface] Temperature of water in channeling point 
+2017-12-10 22:30:46,747 INFO  [HomeInterface] 20.010371678036194 
+2017-12-10 22:30:47,748 INFO  [HomeInterface] Temperature of surface water 
+2017-12-10 22:30:47,748 INFO  [HomeInterface] 20.010319858859287 
+2017-12-10 22:30:47,748 INFO  [HomeInterface] Height of surface water evaporated  
+2017-12-10 22:30:47,748 INFO  [HomeInterface] 0.03360456347272085 
+2017-12-10 22:30:47,748 INFO  [HomeInterface] Height of surface water absorbed 
+2017-12-10 22:30:47,748 INFO  [HomeInterface] 3.1165440514134324 
+2017-12-10 22:30:47,748 INFO  [HomeInterface] Height of surface rain water 
+2017-12-10 22:30:47,748 INFO  [HomeInterface] 12.84985138511385 
+2017-12-10 22:30:47,748 INFO  [HomeInterface] Height of water in channeling point 
+2017-12-10 22:30:47,748 INFO  [HomeInterface] 12.849851385113848 
+2017-12-10 22:30:47,748 INFO  [HomeInterface] Height of water absorbed in channeling point 
+2017-12-10 22:30:47,748 INFO  [HomeInterface] 0.029403686327547203 
+2017-12-10 22:30:47,748 INFO  [HomeInterface] Height of water evaporated in channeling point 
+2017-12-10 22:30:47,748 INFO  [HomeInterface] 0.033604563472720846 
+2017-12-10 22:30:47,748 INFO  [HomeInterface] Temperature of water in channeling point 
+2017-12-10 22:30:47,748 INFO  [HomeInterface] 20.01031985885929 
+2017-12-10 22:30:48,749 INFO  [HomeInterface] Temperature of surface water 
+2017-12-10 22:30:48,749 INFO  [HomeInterface] 20.01027933244146 
+2017-12-10 22:30:48,749 INFO  [HomeInterface] Height of surface water evaporated  
+2017-12-10 22:30:48,749 INFO  [HomeInterface] 0.03780545646921771 
+2017-12-10 22:30:48,749 INFO  [HomeInterface] Height of surface water absorbed 
+2017-12-10 22:30:48,749 INFO  [HomeInterface] 3.2166140585863343 
+2017-12-10 22:30:48,749 INFO  [HomeInterface] Height of surface rain water 
+2017-12-10 22:30:48,749 INFO  [HomeInterface] 14.745580484944451 
+2017-12-10 22:30:48,749 INFO  [HomeInterface] Height of water in channeling point 
+2017-12-10 22:30:48,749 INFO  [HomeInterface] 14.745580484944451 
+2017-12-10 22:30:48,749 INFO  [HomeInterface] Height of water absorbed in channeling point 
+2017-12-10 22:30:48,749 INFO  [HomeInterface] 0.033604563472720846 
+2017-12-10 22:30:48,749 INFO  [HomeInterface] Height of water evaporated in channeling point 
+2017-12-10 22:30:48,749 INFO  [HomeInterface] 0.03780545646921771 
+2017-12-10 22:30:48,749 INFO  [HomeInterface] Temperature of water in channeling point 
+2017-12-10 22:30:48,749 INFO  [HomeInterface] 20.01027933244146 
+2017-12-10 22:30:49,749 INFO  [HomeInterface] Temperature of surface water 
+2017-12-10 22:30:49,749 INFO  [HomeInterface] 20.010246772332795 
+2017-12-10 22:30:49,749 INFO  [HomeInterface] Height of surface water evaporated  
+2017-12-10 22:30:49,749 INFO  [HomeInterface] 0.042006361631770794 
+2017-12-10 22:30:49,749 INFO  [HomeInterface] Height of surface water absorbed 
+2017-12-10 22:30:49,749 INFO  [HomeInterface] 3.3093842416688264 
+2017-12-10 22:30:49,749 INFO  [HomeInterface] Height of surface rain water 
+2017-12-10 22:30:49,749 INFO  [HomeInterface] 16.648609396699406 
+2017-12-10 22:30:49,749 INFO  [HomeInterface] Height of water in channeling point 
+2017-12-10 22:30:49,749 INFO  [HomeInterface] 16.648609396699406 
+2017-12-10 22:30:49,749 INFO  [HomeInterface] Height of water absorbed in channeling point 
+2017-12-10 22:30:49,749 INFO  [HomeInterface] 0.03780545646921771 
+2017-12-10 22:30:49,749 INFO  [HomeInterface] Height of water evaporated in channeling point 
+2017-12-10 22:30:49,750 INFO  [HomeInterface] 0.042006361631770794 
+2017-12-10 22:30:49,750 INFO  [HomeInterface] Temperature of water in channeling point 
+2017-12-10 22:30:49,750 INFO  [HomeInterface] 20.010246772332795 
+2017-12-10 22:32:08,636 INFO  [SWSProject] The User Interface appears 
+2017-12-10 22:32:09,525 INFO  [HomeInterface] The user selects the asphalt surface 
+2017-12-10 22:32:09,525 INFO  [HomeInterface] 1 
+2017-12-10 22:32:09,525 INFO  [HomeInterface] The user starts drawing the surface 
+2017-12-10 22:32:11,746 INFO  [SetSurface] The user enters the surface name and suface temperature 
+2017-12-10 22:32:11,747 INFO  [SetSurface] 44 
+2017-12-10 22:32:11,747 INFO  [SetSurface] 2.0 
+2017-12-10 22:32:17,790 INFO  [HomeInterface] User enters the rain amount, rain temperature and simulation time 
+2017-12-10 22:32:17,790 INFO  [HomeInterface] User Input Rain Amount: 10 
+2017-12-10 22:32:17,790 INFO  [HomeInterface] 3 
+2017-12-10 22:32:17,790 INFO  [HomeInterface] 10.0 
+2017-12-10 22:32:17,791 INFO  [HomeInterface] Temperature of surface water 
+2017-12-10 22:32:17,791 INFO  [HomeInterface] Jfreechart is loaded and graphs start to display 
+2017-12-10 22:32:17,792 INFO  [HomeInterface] 2.0 
+2017-12-10 22:32:17,792 INFO  [HomeInterface] Simulation starts 
+2017-12-10 22:32:17,792 INFO  [HomeInterface] Height of surface water evaporated  
+2017-12-10 22:32:17,792 INFO  [HomeInterface] 0.0012000000000000001 
+2017-12-10 22:32:17,792 INFO  [HomeInterface] Height of surface water absorbed 
+2017-12-10 22:32:17,792 INFO  [HomeInterface] 3.3321333333333336 
+2017-12-10 22:32:17,792 INFO  [HomeInterface] Height of surface rain water 
+2017-12-10 22:32:17,792 INFO  [HomeInterface] 0.0 
+2017-12-10 22:32:17,792 INFO  [HomeInterface] Height of water in channeling point 
+2017-12-10 22:32:17,792 INFO  [HomeInterface] 0.0 
+2017-12-10 22:32:17,792 INFO  [HomeInterface] Height of water absorbed in channeling point 
+2017-12-10 22:32:17,792 INFO  [HomeInterface] 0.0 
+2017-12-10 22:32:17,792 INFO  [HomeInterface] Height of water evaporated in channeling point 
+2017-12-10 22:32:17,792 INFO  [HomeInterface] 0.0012000000000000001 
+2017-12-10 22:32:17,792 INFO  [HomeInterface] Temperature of water in channeling point 
+2017-12-10 22:32:17,792 INFO  [HomeInterface] 2.0 
+2017-12-10 22:32:17,985 INFO  [HomeInterface] 44 graph generated 
+2017-12-10 22:32:18,792 INFO  [HomeInterface] Temperature of surface water 
+2017-12-10 22:32:18,792 INFO  [HomeInterface] 9.974975890360522 
+2017-12-10 22:32:18,792 INFO  [HomeInterface] Height of surface water evaporated  
+2017-12-10 22:32:18,792 INFO  [HomeInterface] 0.0024000000000000002 
+2017-12-10 22:32:18,792 INFO  [HomeInterface] Height of surface water absorbed 
+2017-12-10 22:32:18,792 INFO  [HomeInterface] 3.4773497272606315 
+2017-12-10 22:32:18,792 INFO  [HomeInterface] Height of surface rain water 
+2017-12-10 22:32:18,792 INFO  [HomeInterface] 3.1869169394060357 
+2017-12-10 22:32:18,792 INFO  [HomeInterface] Height of water in channeling point 
+2017-12-10 22:32:18,792 INFO  [HomeInterface] 3.1869169394060357 
+2017-12-10 22:32:18,792 INFO  [HomeInterface] Height of water absorbed in channeling point 
+2017-12-10 22:32:18,792 INFO  [HomeInterface] 0.0012000000000000001 
+2017-12-10 22:32:18,792 INFO  [HomeInterface] Height of water evaporated in channeling point 
+2017-12-10 22:32:18,792 INFO  [HomeInterface] 0.0024000000000000002 
+2017-12-10 22:32:18,792 INFO  [HomeInterface] Temperature of water in channeling point 
+2017-12-10 22:32:18,792 INFO  [HomeInterface] 9.974975890360522 
+2017-12-10 22:32:19,792 INFO  [HomeInterface] Temperature of surface water 
+2017-12-10 22:32:19,792 INFO  [HomeInterface] 9.975284911955988 
+2017-12-10 22:32:19,792 INFO  [HomeInterface] Height of surface water evaporated  
+2017-12-10 22:32:19,792 INFO  [HomeInterface] 0.0035987768911381053 
+2017-12-10 22:32:19,792 INFO  [HomeInterface] Height of surface water absorbed 
+2017-12-10 22:32:19,792 INFO  [HomeInterface] 3.607995840819882 
+2017-12-10 22:32:19,792 INFO  [HomeInterface] Height of surface rain water 
+2017-12-10 22:32:19,792 INFO  [HomeInterface] 6.3884053822889815 
+2017-12-10 22:32:19,792 INFO  [HomeInterface] Height of water in channeling point 
+2017-12-10 22:32:19,792 INFO  [HomeInterface] 6.388405382288981 
+2017-12-10 22:32:19,793 INFO  [HomeInterface] Height of water absorbed in channeling point 
+2017-12-10 22:32:19,793 INFO  [HomeInterface] 0.0024000000000000002 
+2017-12-10 22:32:19,793 INFO  [HomeInterface] Height of water evaporated in channeling point 
+2017-12-10 22:32:19,793 INFO  [HomeInterface] 0.0035987768911381057 
+2017-12-10 22:32:19,793 INFO  [HomeInterface] Temperature of water in channeling point 
+2017-12-10 22:32:19,793 INFO  [HomeInterface] 9.975284911955988 
+2017-12-10 22:32:54,317 INFO  [SWSProject] The User Interface appears 
+2017-12-10 22:32:55,710 INFO  [HomeInterface] The user selects the asphalt surface 
+2017-12-10 22:32:55,710 INFO  [HomeInterface] 1 
+2017-12-10 22:32:55,710 INFO  [HomeInterface] The user starts drawing the surface 
+2017-12-10 22:32:57,781 INFO  [SetSurface] The user enters the surface name and suface temperature 
+2017-12-10 22:32:57,781 INFO  [SetSurface] 4 
+2017-12-10 22:32:57,781 INFO  [SetSurface] 2.0 
+2017-12-10 22:33:01,447 INFO  [HomeInterface] User enters the rain amount, rain temperature and simulation time 
+2017-12-10 22:33:01,447 INFO  [HomeInterface] User Input Rain Amount: 10 
+2017-12-10 22:33:01,447 INFO  [HomeInterface] 2 
+2017-12-10 22:33:01,447 INFO  [HomeInterface] 10.0 
+2017-12-10 22:33:01,448 INFO  [HomeInterface] Jfreechart is loaded and graphs start to display 
+2017-12-10 22:33:01,448 INFO  [HomeInterface] Simulation starts 
+2017-12-10 22:33:01,466 INFO  [HomeInterface] Temperature of surface water 
+2017-12-10 22:33:01,467 INFO  [HomeInterface] 2.0 
+2017-12-10 22:33:01,467 INFO  [HomeInterface] Height of surface water evaporated  
+2017-12-10 22:33:01,467 INFO  [HomeInterface] 0.0012000000000000001 
+2017-12-10 22:33:01,467 INFO  [HomeInterface] Height of surface water absorbed 
+2017-12-10 22:33:01,467 INFO  [HomeInterface] 4.998799999999999 
+2017-12-10 22:33:01,467 INFO  [HomeInterface] Height of surface rain water 
+2017-12-10 22:33:01,467 INFO  [HomeInterface] 0.0 
+2017-12-10 22:33:01,467 INFO  [HomeInterface] Height of water in channeling point 
+2017-12-10 22:33:01,467 INFO  [HomeInterface] 0.0 
+2017-12-10 22:33:01,467 INFO  [HomeInterface] Height of water absorbed in channeling point 
+2017-12-10 22:33:01,467 INFO  [HomeInterface] 0.0 
+2017-12-10 22:33:01,467 INFO  [HomeInterface] Height of water evaporated in channeling point 
+2017-12-10 22:33:01,467 INFO  [HomeInterface] 0.0012000000000000001 
+2017-12-10 22:33:01,467 INFO  [HomeInterface] Temperature of water in channeling point 
+2017-12-10 22:33:01,467 INFO  [HomeInterface] 2.0 
+2017-12-10 22:33:01,703 INFO  [HomeInterface] 4 graph generated 
+2017-12-10 22:33:02,466 INFO  [HomeInterface] Temperature of surface water 
+2017-12-10 22:33:02,466 INFO  [HomeInterface] 9.983807441618854 
+2017-12-10 22:33:02,466 INFO  [HomeInterface] Height of surface water evaporated  
+2017-12-10 22:33:02,466 INFO  [HomeInterface] 0.0024000000000000002 
+2017-12-10 22:33:02,466 INFO  [HomeInterface] Height of surface water absorbed 
+2017-12-10 22:33:02,466 INFO  [HomeInterface] 5.067058912116862 
+2017-12-10 22:33:02,466 INFO  [HomeInterface] Height of surface rain water 
+2017-12-10 22:33:02,466 INFO  [HomeInterface] 4.930541087883136 
+2017-12-10 22:33:02,466 INFO  [HomeInterface] Height of water in channeling point 
+2017-12-10 22:33:02,466 INFO  [HomeInterface] 4.930541087883136 
+2017-12-10 22:33:02,466 INFO  [HomeInterface] Height of water absorbed in channeling point 
+2017-12-10 22:33:02,467 INFO  [HomeInterface] 0.0012000000000000001 
+2017-12-10 22:33:02,467 INFO  [HomeInterface] Height of water evaporated in channeling point 
+2017-12-10 22:33:02,467 INFO  [HomeInterface] 0.0024000000000000002 
+2017-12-10 22:33:02,467 INFO  [HomeInterface] Temperature of water in channeling point 
+2017-12-10 22:33:02,467 INFO  [HomeInterface] 9.983807441618854 
+2017-12-10 22:33:42,964 INFO  [SWSProject] The User Interface appears 
+2017-12-10 22:33:44,274 INFO  [HomeInterface] The user selects the asphalt surface 
+2017-12-10 22:33:44,274 INFO  [HomeInterface] 1 
+2017-12-10 22:33:44,274 INFO  [HomeInterface] The user starts drawing the surface 
+2017-12-10 22:33:46,346 INFO  [SetSurface] The user enters the surface name and suface temperature 
+2017-12-10 22:33:46,346 INFO  [SetSurface] 33 
+2017-12-10 22:33:46,346 INFO  [SetSurface] 2.0 
+2017-12-10 22:33:47,020 INFO  [HomeInterface] The user selects the roof as a surface 
+2017-12-10 22:33:47,020 INFO  [HomeInterface] 1 
+2017-12-10 22:33:47,020 INFO  [HomeInterface] The user starts drawing the surface 
+2017-12-10 22:33:49,267 INFO  [SetSurface] The user enters the surface name and suface temperature 
+2017-12-10 22:33:49,267 INFO  [SetSurface] 3 
+2017-12-10 22:33:49,267 INFO  [SetSurface] 2.0 
+2017-12-10 22:33:52,621 INFO  [HomeInterface] User enters the rain amount, rain temperature and simulation time 
+2017-12-10 22:33:52,621 INFO  [HomeInterface] User Input Rain Amount: 10 
+2017-12-10 22:33:52,621 INFO  [HomeInterface] 2 
+2017-12-10 22:33:52,621 INFO  [HomeInterface] 10.0 
+2017-12-10 22:33:52,623 INFO  [HomeInterface] Jfreechart is loaded and graphs start to display 
+2017-12-10 22:33:52,623 INFO  [HomeInterface] Simulation starts 
+2017-12-10 22:33:52,628 INFO  [HomeInterface] Temperature of surface water 
+2017-12-10 22:33:52,628 INFO  [HomeInterface] 2.0 
+2017-12-10 22:33:52,628 INFO  [HomeInterface] Height of surface water evaporated  
+2017-12-10 22:33:52,628 INFO  [HomeInterface] 0.0012000000000000001 
+2017-12-10 22:33:52,628 INFO  [HomeInterface] Height of surface water absorbed 
+2017-12-10 22:33:52,628 INFO  [HomeInterface] 4.998799999999999 
+2017-12-10 22:33:52,628 INFO  [HomeInterface] Height of surface rain water 
+2017-12-10 22:33:52,628 INFO  [HomeInterface] 0.0 
+2017-12-10 22:33:52,628 INFO  [HomeInterface] Temperature of surface water 
+2017-12-10 22:33:52,628 INFO  [HomeInterface] 2.0 
+2017-12-10 22:33:52,628 INFO  [HomeInterface] Height of surface water evaporated  
+2017-12-10 22:33:52,629 INFO  [HomeInterface] 0.0012000000000000001 
+2017-12-10 22:33:52,629 INFO  [HomeInterface] Height of surface water absorbed 
+2017-12-10 22:33:52,629 INFO  [HomeInterface] 4.998799999999999 
+2017-12-10 22:33:52,629 INFO  [HomeInterface] Height of surface rain water 
+2017-12-10 22:33:52,629 INFO  [HomeInterface] 0.0 
+2017-12-10 22:33:52,629 INFO  [HomeInterface] Height of water in channeling point 
+2017-12-10 22:33:52,629 INFO  [HomeInterface] 0.0 
+2017-12-10 22:33:52,629 INFO  [HomeInterface] Height of water absorbed in channeling point 
+2017-12-10 22:33:52,629 INFO  [HomeInterface] 0.0 
+2017-12-10 22:33:52,629 INFO  [HomeInterface] Height of water evaporated in channeling point 
+2017-12-10 22:33:52,629 INFO  [HomeInterface] 0.0012000000000000001 
+2017-12-10 22:33:52,629 INFO  [HomeInterface] Temperature of water in channeling point 
+2017-12-10 22:33:52,629 INFO  [HomeInterface] 2.0 
+2017-12-10 22:33:52,840 INFO  [HomeInterface] 33 graph generated 
+2017-12-10 22:33:53,012 INFO  [HomeInterface] 3 graph generated 
+2017-12-10 22:33:53,627 INFO  [HomeInterface] Temperature of surface water 
+2017-12-10 22:33:53,627 INFO  [HomeInterface] 9.983807441618854 
+2017-12-10 22:33:53,627 INFO  [HomeInterface] Height of surface water evaporated  
+2017-12-10 22:33:53,627 INFO  [HomeInterface] 0.0024000000000000002 
+2017-12-10 22:33:53,627 INFO  [HomeInterface] Height of surface water absorbed 
+2017-12-10 22:33:53,627 INFO  [HomeInterface] 5.067058912116862 
+2017-12-10 22:33:53,627 INFO  [HomeInterface] Height of surface rain water 
+2017-12-10 22:33:53,627 INFO  [HomeInterface] 4.930541087883136 
+2017-12-10 22:33:53,627 INFO  [HomeInterface] Temperature of surface water 
+2017-12-10 22:33:53,628 INFO  [HomeInterface] 9.984010799673873 
+2017-12-10 22:33:53,628 INFO  [HomeInterface] Height of surface water evaporated  
+2017-12-10 22:33:53,628 INFO  [HomeInterface] 0.0024000000000000002 
+2017-12-10 22:33:53,628 INFO  [HomeInterface] Height of surface water absorbed 
+2017-12-10 22:33:53,628 INFO  [HomeInterface] 5.004222822388432 
+2017-12-10 22:33:53,628 INFO  [HomeInterface] Height of surface rain water 
+2017-12-10 22:33:53,628 INFO  [HomeInterface] 4.993377177611566 
+2017-12-10 22:33:53,628 INFO  [HomeInterface] Height of water in channeling point 
+2017-12-10 22:33:53,628 INFO  [HomeInterface] 4.949465077647122 
+2017-12-10 22:33:53,628 INFO  [HomeInterface] Height of water absorbed in channeling point 
+2017-12-10 22:33:53,628 INFO  [HomeInterface] 0.0012000000000000001 
+2017-12-10 22:33:53,628 INFO  [HomeInterface] Height of water evaporated in channeling point 
+2017-12-10 22:33:53,628 INFO  [HomeInterface] 0.0024000000000000002 
+2017-12-10 22:33:53,628 INFO  [HomeInterface] Temperature of water in channeling point 
+2017-12-10 22:33:53,628 INFO  [HomeInterface] 9.983868685814162 
