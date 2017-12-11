@@ -10,7 +10,6 @@ import org.jfree.data.time.Second;
 import org.jfree.data.time.TimeSeries;
 import org.jfree.data.time.TimeSeriesCollection;
 
-
 public class GraphMaker extends HomeInterface{
     
     static TimeSeries ts = new TimeSeries("Second", Second.class);

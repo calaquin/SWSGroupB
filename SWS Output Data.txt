@@ -1,0 +1,32 @@
+SWS Data
+Run time: 1 hr 0 min 
+Rain Amount: 10cm
+Rain Temperature 77.0 C
+ 
+Surface name: Roof
+Initial temperature: 100.0 C
+Final temperature: 78.32512473457014 C
+Water remaining on surface: 7.479719812788621cm
+Water absorbed: 1.45090526718804cm
+Water evaporated: 1.0693749200233438cm
+
+Surface name: Parking Lot
+Initial temperature: 130.0 C
+Final temperature: 80.06020685577239 C
+Water remaining on surface: 6.871164424097688cm
+Water absorbed: 1.8698536966269168cm
+Water evaporated: 1.2589818792754033cm
+
+Surface name: Playground
+Initial temperature: 88.0 C
+Final temperature: 77.63689776261226 C
+Water remaining on surface: 6.178233929856498cm
+Water absorbed: 2.8282494508023936cm
+Water evaporated: 0.9935166193411195cm
+
+Channeling Point: 
+Initial temperature: 0.0 C
+Final temperature: 79.11681463444008 C
+Water remaining: 6.764021845536908cm
+Water absorbed: 2.0802731752886703cm
+Water evaporated: 1.15570497917443cm

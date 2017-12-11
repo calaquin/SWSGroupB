@@ -3,8 +3,10 @@ package swsproject;
 
 import javax.swing.*;
 import java.awt.*;
+import static java.awt.SystemColor.text;
+import java.io.FileOutputStream;
+import java.io.PrintStream;
 import java.util.ArrayList;
-import java.util.List;
 import java.util.Timer;
 import java.util.TimerTask;
 import org.apache.log4j.Logger;
@@ -371,6 +373,7 @@ public class HomeInterface extends javax.swing.JFrame {
         this.minutes = 60 * (Integer)this.sp_hours.getValue() + (Integer)this.sp_mins.getValue();
         log4j.info("User enters the rain amount, rain temperature and simulation time");
         int rain_amount = (Integer)this.sp_rain_amount.getValue();
+        this.starting_rain_amount = rain_amount;
         log4j.info("User Input Rain Amount: " + rain_amount);
         this.remained_time = this.minutes;
         log4j.info(this.remained_time); 
@@ -393,8 +396,7 @@ public class HomeInterface extends javax.swing.JFrame {
         
         for (int i = 0; i < DataSingleton.getInstance().surface_list.size(); i++) {            
             newGraph = new GraphMaker();
-            newGraph.MakeGraph(i);
-            
+            newGraph.MakeGraph(i);            
             log4j.info(DataSingleton.getInstance().getInstance().surface_list.get(i).name + " graph generated");
         }
         
@@ -422,6 +424,33 @@ public class HomeInterface extends javax.swing.JFrame {
          @Override
         public void run() {
              if (remained_time == 0) {
+                    try (PrintStream out = new PrintStream(new FileOutputStream("SWS Output Data.txt"))) {
+                            out.println("SWS Data");
+                            out.println("Run time: " + sp_hours.getValue() + " hr " + sp_mins.getValue() + " min ");
+                            out.println("Rain Amount: " + starting_rain_amount + "cm");
+                            out.println("Rain Temperature " + t_rain + " C");
+                            out.println(" ");
+                            for (int i = 0; i < DataSingleton.getInstance().surface_list.size(); i++)
+                            {
+                                out.println("Surface name: " + DataSingleton.getInstance().surface_list.get(i).name);
+                                out.println("Initial temperature: " + DataSingleton.getInstance().surface_list.get(i).temp_surface + " C");
+                                out.println("Final temperature: " + DataSingleton.getInstance().surface_list.get(i).temp_water + " C");
+                                out.println("Water remaining on surface: " + DataSingleton.getInstance().surface_list.get(i).h_water + "cm");
+                                out.println("Water absorbed: " + DataSingleton.getInstance().surface_list.get(i).h_absorbe + "cm");
+                                out.println("Water evaporated: " + DataSingleton.getInstance().surface_list.get(i).h_evaporabe + "cm");
+                                out.println("");
+                            }
+                            out.println("Channeling Point: ");
+                            out.println("Initial temperature: " + DataSingleton.getInstance().channel_surface.temp_surface + " C");
+                            out.println("Final temperature: " + DataSingleton.getInstance().channel_surface.temp_water + " C");
+                            out.println("Water remaining: " + DataSingleton.getInstance().channel_surface.h_water + "cm");
+                            out.println("Water absorbed: " + DataSingleton.getInstance().channel_surface.h_absorbe + "cm");
+                            out.println("Water evaporated: " + DataSingleton.getInstance().channel_surface.h_evaporabe + "cm");
+                            System.out.println("Output file successfully generated.");
+                    } catch (Exception e) {
+                        System.out.println("Failed to write to file.");
+                    }
+                    
                     simulator_timer.cancel();
                     simulator_timer.purge();
                     simulator_timer = null;
@@ -438,6 +467,8 @@ public class HomeInterface extends javax.swing.JFrame {
                     btn_start.setEnabled(true);
                     btn_pause.setEnabled(false);
                     btn_resume.setEnabled(false);
+
+                    
                     set_default();
                     return;
                  }
@@ -675,6 +706,7 @@ public class HomeInterface extends javax.swing.JFrame {
     public double h_rain;
     public int minutes;
     public int remained_time;
+    public int starting_rain_amount;
     // Variables declaration - do not modify//GEN-BEGIN:variables
     public javax.swing.JButton btn_asphalt;
     public javax.swing.JButton btn_grass;
